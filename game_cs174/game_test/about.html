@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title id="title" pageName="Users">Game | About</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/nav-bar.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+ 		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+		<script type="text/javascript" charset="utf-8" src="js/jquery.min.js"></script>
+	    <script> 
+				$(init);
+		 		function init()
+		    	{
+		    	  $("#includedContent").load("navBar.html"); 
+		    	  $("#footer").load("footer.html");
+		    	}  	
+	    </script>
+	</head>
+
+	<body>
+		<div id="includedContent"></div>
+
+		<div>
+			<h4>About The Game</h4>
+			<p>
+				This game is a horror-arcade style game, which involves you playing as a cop being attacked by zombies. The goal of the game is to survive a wave of zombies and try to obtain the highest score possible. User’s are able to control the Police Officer with only a limited range to shoot the zombies.  Also it’s based on a grid-based system so the user is only allowed to move within the boundaries of the grid.<br>
+			</p>
+			<p>
+				Zombies infinitely spawns until the game is over. The player has health and a base-health that decreases whenever a zombie touches the player or reaches the end of the screen, which indicates that the base has been attacked. Once you’ve lost the game, your score then gets recorded and it’ll be displayed for other users to see under the high scores page. A user can search high scores based on a user’s gamertag or by default it’s all users.<br>
+			</p>
+			<h3>Upcoming Additions</h3>
+			<p>
+				We were working towards implementing various profile features that would allow a user to have friends, view friends profiles, and leave comments on friends pages. We also wanted to implement a “store” feature as part of the game that would allow user to spend “money” accumulated during game play on player upgrades such as new weapons and defenses. We ran out of time to fully implement these features because our main focus was on the game logic itself which took longer than anticipated.<br><br>
+			</p>
+		</div>
+
+		<div id = "footer" class="container-fluid" style="margin-top: 25%;"></div>
+	</body>
+</html>

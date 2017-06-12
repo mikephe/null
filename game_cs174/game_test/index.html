@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title id="title" pageName="Home">Game | Home</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="comm.js"></script>
+		<script> 
+		    $(function(){ 
+		    	$("#footer").load("footer.html");
+		    });
+	    </script>
+	</head>
+	<body>
+		<div class="header">
+			<img src="images/LoneSurvivor.png" width="800" height="100" />
+		</div>
+		<div class = "container bottom">
+			<ul class= "nav nav-tabs box">
+				<li class="active"> <a data-toggle="tab" href="#login"> Log In </a> </li>
+				<li> <a data-toggle="tab" href = "#reg"> Register </a></li>
+			</ul>
+			<div class = "tab-content box">
+				<div id = "login" class = "tab-pane active">
+					<form id = "login" onsubmit = "return ifValidLogin()">
+							<fieldset>
+							<legend>Log In</legend>
+							<input type="text" name="gamertag" id="gamertag" placeholder="Gamer Tag" pattern="^.{3}$" required> <!-- Add js and php to validate against db -->
+							<input type="password" name="password" id="password" placeholder="Password" pattern="^.{5,10}$" required> <!-- Add js and php to validate against db -->
+							<input type="submit" value="Submit"><br>
+						</fieldset>
+					</form>
+				</div>
+				<div id = "reg" class = "tab-pane">
+					<form id = "register" onsubmit = "return validate(this);">
+							<fieldset>
+								<legend >Create User</legend>
+								<input type="text" name="firstname" id="firstname" placeholder="First" required>
+								<input type="text" name="lastname" id="lastname" placeholder="Last" required>
+								<input type="text" name="newgamertag" id="newgamertag" placeholder="Gamer Tag" required>
+								<input type="email" name="email" id="email" placeholder="Email" required>
+								<input type="password" name="newpassword" id="newpassword" placeholder="Password" required>
+								<input type="submit" value="Submit" >
+							</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="footer" class="container-fluid"></div>
+		<script>
+			function validate(form) {
+
+			    // validation code here ...
+			    var alertMessage = "";
+			    var valid = true;
+
+			    emailRE = /^.+@.+\..{2,4}$/;
+			    gamertagRE = /^.{3}$/;
+			    nameRE = /^[a-zA-Z]+$/;
+			    passwordRE = /^.{5,10}$/;
+			    
+			    if(!form.firstname.value.match(nameRE) || !form.lastname.value.match(nameRE))
+			    {
+			    	alertMessage += "\nNames are alpha characters only";
+			    	valid = false;
+			    }
+			    if(!form.newgamertag.value.match(gamertagRE))
+			    {
+			    	alertMessage += "\nInvalid gamer tag: must be 3 characters";
+			    	valid = false;
+			    }
+			    if(!form.newpassword.value.match(passwordRE))
+			    {
+			    	alertMessage += "\nInvalid password: must be 5-10 characters";
+			    	valid = false;	
+			    }
+			    
+			    if(!valid) {
+			        alert('Please correct the errors in the form!\n' + alertMessage);
+			        return false;
+			    }
+			    else {
+			    	var firstname = $("#firstname").val();
+			    	var lastname = $("#lastname").val();
+			    	var gamertag = $("#newgamertag").val();
+			    	var email = $("#email").val();
+			    	var password = $("#newpassword").val();
+			    	ajax.post('db_insert_new_user.php', 
+			    		{'firstname': firstname, 
+			    		 'lastname': lastname,
+			    		 'gamertag': gamertag,
+			    		 'email': email,
+			    		 'password': password
+			    		}, function (response)
+			    		{
+			    			console.log(response);
+			    			if (response == 'true')
+			    			{
+			    				location.href = 'home.php';
+			    			}
+			    			else 
+			    			{
+			    				alert('User Already Exist');
+			    				document.getElementById('register').reset();
+			    			}
+			    		}, true);
+			        return false;
+			    }
+			}
+		</script>
+		<script>
+			function ifValidLogin(){
+				var gamertag = $("#gamertag").val();
+				var password = $("#password").val();
+				ajax.post('db_login.php', {'gamertag': gamertag, 'password': password}, 
+					function(response){
+						if (response == 'true')
+						{
+							location.href = 'home.php?user=' + "bob";
+						}
+						else 
+						{
+							alert('Wrong username/password');
+							$("#gamertag").val("");
+							$("#password").val("");
+						}
+				}, true);
+				return false;
+			}
+		</script>
+	</body>
+</html>
