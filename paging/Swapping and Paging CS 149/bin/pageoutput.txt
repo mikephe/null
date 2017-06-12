@@ -1,0 +1,4283 @@
+
+-----------------------------------------------
+
+-----------------------------------------------
+---------------------FIFO----------------------
+-----------------------------------------------
+
+-----------------------------------------------
+
+===================Run: 1====================
+
+WorkingSet/Quanta/PageToBeAdded
+--------------------------------------------
+Page 1 pages in
+--------------------------------------------
+Working Set: 1nnn | Quanta: 1 | Page Frame: 1 |
+Working Set: 1nnn | Quanta: 2 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page n evicted. Current hit: 1.0
+--------------------------------------------
+Working Set: 12nn | Quanta: 3 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page n evicted. Current hit: 1.0
+--------------------------------------------
+Working Set: 123n | Quanta: 4 | Page Frame: 3 |
+Working Set: 123n | Quanta: 5 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page n evicted. Current hit: 2.0
+--------------------------------------------
+Working Set: 1234 | Quanta: 6 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted. Current hit: 2.0
+--------------------------------------------
+Working Set: 5234 | Quanta: 7 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 8 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 9 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 10 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 11 | Page Frame: 3 |
+Working Set: 5234 | Quanta: 12 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 13 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted. Current hit: 8.0
+--------------------------------------------
+Working Set: 5634 | Quanta: 14 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted. Current hit: 8.0
+--------------------------------------------
+Working Set: 5674 | Quanta: 15 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted. Current hit: 8.0
+--------------------------------------------
+Working Set: 5670 | Quanta: 16 | Page Frame: 0 |
+Working Set: 5670 | Quanta: 17 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted. Current hit: 9.0
+--------------------------------------------
+Working Set: 1670 | Quanta: 18 | Page Frame: 1 |
+Working Set: 1670 | Quanta: 19 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 20 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 21 | Page Frame: 1 |
+Working Set: 1670 | Quanta: 22 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 23 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 24 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 25 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 26 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 6 evicted. Current hit: 17.0
+--------------------------------------------
+Working Set: 1270 | Quanta: 27 | Page Frame: 2 |
+Working Set: 1270 | Quanta: 28 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 29 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 30 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 31 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 32 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 33 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 34 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 35 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 36 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 37 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 38 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 39 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 40 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 41 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 42 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 43 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 44 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 45 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 46 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 47 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 48 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 49 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 50 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 51 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 52 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 53 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 54 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 55 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 56 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 57 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 58 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 59 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 60 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 61 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 62 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 63 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 64 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 65 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 66 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 67 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 68 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 69 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 70 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 71 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 72 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 73 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 74 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 75 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 7 evicted. Current hit: 65.0
+--------------------------------------------
+Working Set: 1230 | Quanta: 76 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted. Current hit: 65.0
+--------------------------------------------
+Working Set: 1234 | Quanta: 77 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted. Current hit: 65.0
+--------------------------------------------
+Working Set: 5234 | Quanta: 78 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 79 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 80 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 81 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 82 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 83 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 84 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 85 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 86 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 87 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 88 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 89 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 90 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 91 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 92 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted. Current hit: 79.0
+--------------------------------------------
+Working Set: 5634 | Quanta: 93 | Page Frame: 6 |
+Working Set: 5634 | Quanta: 94 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 95 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted. Current hit: 81.0
+--------------------------------------------
+Working Set: 5674 | Quanta: 96 | Page Frame: 7 |
+--------------------------------------------
+Page 9 pages in / Page 4 evicted. Current hit: 81.0
+--------------------------------------------
+Working Set: 5679 | Quanta: 97 | Page Frame: 9 |
+--------------------------------------------
+Page 0 pages in / Page 5 evicted. Current hit: 81.0
+--------------------------------------------
+Working Set: 0679 | Quanta: 98 | Page Frame: 0 |
+Working Set: 0679 | Quanta: 99 | Page Frame: 0 |
+Working Set: 0679 | Quanta: 100 | Page Frame: 0 |
+
+
+FIFO Hit Ratio: 0.83
+
+===================Run: 2====================
+
+WorkingSet/Quanta/PageToBeAdded
+--------------------------------------------
+Page 7 pages in
+--------------------------------------------
+Working Set: 7nnn | Quanta: 1 | Page Frame: 7 |
+--------------------------------------------
+Page 9 pages in / Page n evicted. Current hit: 0.0
+--------------------------------------------
+Working Set: 79nn | Quanta: 2 | Page Frame: 9 |
+--------------------------------------------
+Page 0 pages in / Page n evicted. Current hit: 0.0
+--------------------------------------------
+Working Set: 790n | Quanta: 3 | Page Frame: 0 |
+Working Set: 790n | Quanta: 4 | Page Frame: 0 |
+Working Set: 790n | Quanta: 5 | Page Frame: 0 |
+Working Set: 790n | Quanta: 6 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page n evicted. Current hit: 3.0
+--------------------------------------------
+Working Set: 7901 | Quanta: 7 | Page Frame: 1 |
+Working Set: 7901 | Quanta: 8 | Page Frame: 0 |
+Working Set: 7901 | Quanta: 9 | Page Frame: 0 |
+Working Set: 7901 | Quanta: 10 | Page Frame: 0 |
+Working Set: 7901 | Quanta: 11 | Page Frame: 1 |
+Working Set: 7901 | Quanta: 12 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 7 evicted. Current hit: 8.0
+--------------------------------------------
+Working Set: 2901 | Quanta: 13 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 9 evicted. Current hit: 8.0
+--------------------------------------------
+Working Set: 2301 | Quanta: 14 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted. Current hit: 8.0
+--------------------------------------------
+Working Set: 2341 | Quanta: 15 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted. Current hit: 8.0
+--------------------------------------------
+Working Set: 2345 | Quanta: 16 | Page Frame: 5 |
+Working Set: 2345 | Quanta: 17 | Page Frame: 4 |
+Working Set: 2345 | Quanta: 18 | Page Frame: 5 |
+Working Set: 2345 | Quanta: 19 | Page Frame: 4 |
+Working Set: 2345 | Quanta: 20 | Page Frame: 4 |
+Working Set: 2345 | Quanta: 21 | Page Frame: 4 |
+Working Set: 2345 | Quanta: 22 | Page Frame: 4 |
+Working Set: 2345 | Quanta: 23 | Page Frame: 4 |
+Working Set: 2345 | Quanta: 24 | Page Frame: 3 |
+Working Set: 2345 | Quanta: 25 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted. Current hit: 17.0
+--------------------------------------------
+Working Set: 1345 | Quanta: 26 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted. Current hit: 17.0
+--------------------------------------------
+Working Set: 1245 | Quanta: 27 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted. Current hit: 17.0
+--------------------------------------------
+Working Set: 1235 | Quanta: 28 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 5 evicted. Current hit: 17.0
+--------------------------------------------
+Working Set: 1234 | Quanta: 29 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted. Current hit: 17.0
+--------------------------------------------
+Working Set: 5234 | Quanta: 30 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted. Current hit: 17.0
+--------------------------------------------
+Working Set: 5634 | Quanta: 31 | Page Frame: 6 |
+Working Set: 5634 | Quanta: 32 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 33 | Page Frame: 6 |
+Working Set: 5634 | Quanta: 34 | Page Frame: 6 |
+Working Set: 5634 | Quanta: 35 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 36 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 37 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted. Current hit: 23.0
+--------------------------------------------
+Working Set: 5674 | Quanta: 38 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted. Current hit: 23.0
+--------------------------------------------
+Working Set: 5670 | Quanta: 39 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted. Current hit: 23.0
+--------------------------------------------
+Working Set: 1670 | Quanta: 40 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 6 evicted. Current hit: 23.0
+--------------------------------------------
+Working Set: 1270 | Quanta: 41 | Page Frame: 2 |
+Working Set: 1270 | Quanta: 42 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 43 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 44 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 45 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 46 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 47 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 48 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 49 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 50 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 51 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 52 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 53 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 54 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 55 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 56 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 57 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 58 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 59 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 60 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 61 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 62 | Page Frame: 0 |
+Working Set: 1270 | Quanta: 63 | Page Frame: 1 |
+Working Set: 1270 | Quanta: 64 | Page Frame: 2 |
+Working Set: 1270 | Quanta: 65 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 7 evicted. Current hit: 47.0
+--------------------------------------------
+Working Set: 1230 | Quanta: 66 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted. Current hit: 47.0
+--------------------------------------------
+Working Set: 1234 | Quanta: 67 | Page Frame: 4 |
+Working Set: 1234 | Quanta: 68 | Page Frame: 3 |
+Working Set: 1234 | Quanta: 69 | Page Frame: 4 |
+Working Set: 1234 | Quanta: 70 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted. Current hit: 50.0
+--------------------------------------------
+Working Set: 5234 | Quanta: 71 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 72 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 73 | Page Frame: 3 |
+Working Set: 5234 | Quanta: 74 | Page Frame: 2 |
+Working Set: 5234 | Quanta: 75 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted. Current hit: 54.0
+--------------------------------------------
+Working Set: 5134 | Quanta: 76 | Page Frame: 1 |
+Working Set: 5134 | Quanta: 77 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted. Current hit: 55.0
+--------------------------------------------
+Working Set: 5124 | Quanta: 78 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted. Current hit: 55.0
+--------------------------------------------
+Working Set: 5123 | Quanta: 79 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 5 evicted. Current hit: 55.0
+--------------------------------------------
+Working Set: 4123 | Quanta: 80 | Page Frame: 4 |
+Working Set: 4123 | Quanta: 81 | Page Frame: 4 |
+Working Set: 4123 | Quanta: 82 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted. Current hit: 57.0
+--------------------------------------------
+Working Set: 4523 | Quanta: 83 | Page Frame: 5 |
+Working Set: 4523 | Quanta: 84 | Page Frame: 4 |
+Working Set: 4523 | Quanta: 85 | Page Frame: 4 |
+Working Set: 4523 | Quanta: 86 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted. Current hit: 60.0
+--------------------------------------------
+Working Set: 4563 | Quanta: 87 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted. Current hit: 60.0
+--------------------------------------------
+Working Set: 4567 | Quanta: 88 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted. Current hit: 60.0
+--------------------------------------------
+Working Set: 0567 | Quanta: 89 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 90 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 91 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 92 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 93 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 94 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 95 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted. Current hit: 66.0
+--------------------------------------------
+Working Set: 0167 | Quanta: 96 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 6 evicted. Current hit: 66.0
+--------------------------------------------
+Working Set: 0127 | Quanta: 97 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 7 evicted. Current hit: 66.0
+--------------------------------------------
+Working Set: 0123 | Quanta: 98 | Page Frame: 3 |
+Working Set: 0123 | Quanta: 99 | Page Frame: 2 |
+Working Set: 0123 | Quanta: 100 | Page Frame: 1 |
+
+
+FIFO Hit Ratio: 0.68
+
+===================Run: 3====================
+
+WorkingSet/Quanta/PageToBeAdded
+--------------------------------------------
+Page 2 pages in
+--------------------------------------------
+Working Set: 2nnn | Quanta: 1 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page n evicted. Current hit: 0.0
+--------------------------------------------
+Working Set: 23nn | Quanta: 2 | Page Frame: 3 |
+Working Set: 23nn | Quanta: 3 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page n evicted. Current hit: 1.0
+--------------------------------------------
+Working Set: 231n | Quanta: 4 | Page Frame: 1 |
+Working Set: 231n | Quanta: 5 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page n evicted. Current hit: 2.0
+--------------------------------------------
+Working Set: 2310 | Quanta: 6 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 7 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 8 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 9 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 10 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 11 | Page Frame: 3 |
+Working Set: 2310 | Quanta: 12 | Page Frame: 3 |
+Working Set: 2310 | Quanta: 13 | Page Frame: 3 |
+Working Set: 2310 | Quanta: 14 | Page Frame: 3 |
+Working Set: 2310 | Quanta: 15 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 2 evicted. Current hit: 11.0
+--------------------------------------------
+Working Set: 4310 | Quanta: 16 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 3 evicted. Current hit: 11.0
+--------------------------------------------
+Working Set: 4510 | Quanta: 17 | Page Frame: 5 |
+Working Set: 4510 | Quanta: 18 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 1 evicted. Current hit: 12.0
+--------------------------------------------
+Working Set: 4560 | Quanta: 19 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 0 evicted. Current hit: 12.0
+--------------------------------------------
+Working Set: 4567 | Quanta: 20 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted. Current hit: 12.0
+--------------------------------------------
+Working Set: 0567 | Quanta: 21 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 22 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 23 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 24 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 25 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 26 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted. Current hit: 17.0
+--------------------------------------------
+Working Set: 0167 | Quanta: 27 | Page Frame: 1 |
+Working Set: 0167 | Quanta: 28 | Page Frame: 1 |
+Working Set: 0167 | Quanta: 29 | Page Frame: 1 |
+Working Set: 0167 | Quanta: 30 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 31 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 32 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 33 | Page Frame: 1 |
+Working Set: 0167 | Quanta: 34 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 35 | Page Frame: 1 |
+Working Set: 0167 | Quanta: 36 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 37 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 38 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 39 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 40 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 41 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 42 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 43 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 44 | Page Frame: 0 |
+Working Set: 0167 | Quanta: 45 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 6 evicted. Current hit: 35.0
+--------------------------------------------
+Working Set: 0127 | Quanta: 46 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 7 evicted. Current hit: 35.0
+--------------------------------------------
+Working Set: 0123 | Quanta: 47 | Page Frame: 3 |
+Working Set: 0123 | Quanta: 48 | Page Frame: 2 |
+Working Set: 0123 | Quanta: 49 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted. Current hit: 37.0
+--------------------------------------------
+Working Set: 4123 | Quanta: 50 | Page Frame: 4 |
+Working Set: 4123 | Quanta: 51 | Page Frame: 3 |
+Working Set: 4123 | Quanta: 52 | Page Frame: 2 |
+Working Set: 4123 | Quanta: 53 | Page Frame: 2 |
+Working Set: 4123 | Quanta: 54 | Page Frame: 1 |
+Working Set: 4123 | Quanta: 55 | Page Frame: 2 |
+Working Set: 4123 | Quanta: 56 | Page Frame: 2 |
+Working Set: 4123 | Quanta: 57 | Page Frame: 1 |
+Working Set: 4123 | Quanta: 58 | Page Frame: 2 |
+Working Set: 4123 | Quanta: 59 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted. Current hit: 46.0
+--------------------------------------------
+Working Set: 4023 | Quanta: 60 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted. Current hit: 46.0
+--------------------------------------------
+Working Set: 4013 | Quanta: 61 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted. Current hit: 46.0
+--------------------------------------------
+Working Set: 4012 | Quanta: 62 | Page Frame: 2 |
+Working Set: 4012 | Quanta: 63 | Page Frame: 1 |
+Working Set: 4012 | Quanta: 64 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 65 | Page Frame: 1 |
+Working Set: 4012 | Quanta: 66 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 67 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 68 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 69 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 70 | Page Frame: 1 |
+Working Set: 4012 | Quanta: 71 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 72 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 73 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 74 | Page Frame: 1 |
+Working Set: 4012 | Quanta: 75 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 76 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 77 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 78 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 79 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 80 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 81 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 82 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 83 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 84 | Page Frame: 1 |
+Working Set: 4012 | Quanta: 85 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 86 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 87 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 88 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 89 | Page Frame: 1 |
+Working Set: 4012 | Quanta: 90 | Page Frame: 2 |
+Working Set: 4012 | Quanta: 91 | Page Frame: 1 |
+Working Set: 4012 | Quanta: 92 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 93 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 94 | Page Frame: 0 |
+Working Set: 4012 | Quanta: 95 | Page Frame: 1 |
+Working Set: 4012 | Quanta: 96 | Page Frame: 1 |
+Working Set: 4012 | Quanta: 97 | Page Frame: 1 |
+Working Set: 4012 | Quanta: 98 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted. Current hit: 82.0
+--------------------------------------------
+Working Set: 3012 | Quanta: 99 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted. Current hit: 82.0
+--------------------------------------------
+Working Set: 3412 | Quanta: 100 | Page Frame: 4 |
+
+
+FIFO Hit Ratio: 0.82
+
+===================Run: 4====================
+
+WorkingSet/Quanta/PageToBeAdded
+--------------------------------------------
+Page 0 pages in
+--------------------------------------------
+Working Set: 0nnn | Quanta: 1 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page n evicted. Current hit: 0.0
+--------------------------------------------
+Working Set: 01nn | Quanta: 2 | Page Frame: 1 |
+Working Set: 01nn | Quanta: 3 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page n evicted. Current hit: 1.0
+--------------------------------------------
+Working Set: 012n | Quanta: 4 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page n evicted. Current hit: 1.0
+--------------------------------------------
+Working Set: 0123 | Quanta: 5 | Page Frame: 3 |
+Working Set: 0123 | Quanta: 6 | Page Frame: 3 |
+Working Set: 0123 | Quanta: 7 | Page Frame: 2 |
+Working Set: 0123 | Quanta: 8 | Page Frame: 1 |
+Working Set: 0123 | Quanta: 9 | Page Frame: 2 |
+Working Set: 0123 | Quanta: 10 | Page Frame: 3 |
+Working Set: 0123 | Quanta: 11 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted. Current hit: 7.0
+--------------------------------------------
+Working Set: 4123 | Quanta: 12 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted. Current hit: 7.0
+--------------------------------------------
+Working Set: 4523 | Quanta: 13 | Page Frame: 5 |
+Working Set: 4523 | Quanta: 14 | Page Frame: 4 |
+Working Set: 4523 | Quanta: 15 | Page Frame: 3 |
+Working Set: 4523 | Quanta: 16 | Page Frame: 2 |
+Working Set: 4523 | Quanta: 17 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted. Current hit: 11.0
+--------------------------------------------
+Working Set: 4513 | Quanta: 18 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted. Current hit: 11.0
+--------------------------------------------
+Working Set: 4512 | Quanta: 19 | Page Frame: 2 |
+Working Set: 4512 | Quanta: 20 | Page Frame: 1 |
+Working Set: 4512 | Quanta: 21 | Page Frame: 2 |
+Working Set: 4512 | Quanta: 22 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted. Current hit: 14.0
+--------------------------------------------
+Working Set: 3512 | Quanta: 23 | Page Frame: 3 |
+Working Set: 3512 | Quanta: 24 | Page Frame: 2 |
+Working Set: 3512 | Quanta: 25 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 5 evicted. Current hit: 16.0
+--------------------------------------------
+Working Set: 3412 | Quanta: 26 | Page Frame: 4 |
+Working Set: 3412 | Quanta: 27 | Page Frame: 4 |
+Working Set: 3412 | Quanta: 28 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 29 | Page Frame: 2 |
+Working Set: 3412 | Quanta: 30 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 31 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 32 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 33 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 34 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 35 | Page Frame: 2 |
+Working Set: 3412 | Quanta: 36 | Page Frame: 1 |
+Working Set: 3412 | Quanta: 37 | Page Frame: 2 |
+Working Set: 3412 | Quanta: 38 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 39 | Page Frame: 2 |
+Working Set: 3412 | Quanta: 40 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 41 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 42 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 43 | Page Frame: 2 |
+Working Set: 3412 | Quanta: 44 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 45 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 46 | Page Frame: 2 |
+Working Set: 3412 | Quanta: 47 | Page Frame: 1 |
+Working Set: 3412 | Quanta: 48 | Page Frame: 1 |
+Working Set: 3412 | Quanta: 49 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted. Current hit: 39.0
+--------------------------------------------
+Working Set: 3402 | Quanta: 50 | Page Frame: 0 |
+Working Set: 3402 | Quanta: 51 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted. Current hit: 40.0
+--------------------------------------------
+Working Set: 3401 | Quanta: 52 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted. Current hit: 40.0
+--------------------------------------------
+Working Set: 2401 | Quanta: 53 | Page Frame: 2 |
+Working Set: 2401 | Quanta: 54 | Page Frame: 1 |
+Working Set: 2401 | Quanta: 55 | Page Frame: 1 |
+Working Set: 2401 | Quanta: 56 | Page Frame: 1 |
+Working Set: 2401 | Quanta: 57 | Page Frame: 1 |
+Working Set: 2401 | Quanta: 58 | Page Frame: 2 |
+Working Set: 2401 | Quanta: 59 | Page Frame: 1 |
+Working Set: 2401 | Quanta: 60 | Page Frame: 0 |
+Working Set: 2401 | Quanta: 61 | Page Frame: 0 |
+Working Set: 2401 | Quanta: 62 | Page Frame: 0 |
+Working Set: 2401 | Quanta: 63 | Page Frame: 1 |
+Working Set: 2401 | Quanta: 64 | Page Frame: 0 |
+Working Set: 2401 | Quanta: 65 | Page Frame: 1 |
+Working Set: 2401 | Quanta: 66 | Page Frame: 1 |
+Working Set: 2401 | Quanta: 67 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted. Current hit: 54.0
+--------------------------------------------
+Working Set: 2301 | Quanta: 68 | Page Frame: 3 |
+Working Set: 2301 | Quanta: 69 | Page Frame: 2 |
+Working Set: 2301 | Quanta: 70 | Page Frame: 3 |
+Working Set: 2301 | Quanta: 71 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted. Current hit: 57.0
+--------------------------------------------
+Working Set: 2341 | Quanta: 72 | Page Frame: 4 |
+Working Set: 2341 | Quanta: 73 | Page Frame: 3 |
+Working Set: 2341 | Quanta: 74 | Page Frame: 2 |
+Working Set: 2341 | Quanta: 75 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted. Current hit: 60.0
+--------------------------------------------
+Working Set: 2340 | Quanta: 76 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted. Current hit: 60.0
+--------------------------------------------
+Working Set: 1340 | Quanta: 77 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted. Current hit: 60.0
+--------------------------------------------
+Working Set: 1240 | Quanta: 78 | Page Frame: 2 |
+Working Set: 1240 | Quanta: 79 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted. Current hit: 61.0
+--------------------------------------------
+Working Set: 1230 | Quanta: 80 | Page Frame: 3 |
+Working Set: 1230 | Quanta: 81 | Page Frame: 3 |
+Working Set: 1230 | Quanta: 82 | Page Frame: 2 |
+Working Set: 1230 | Quanta: 83 | Page Frame: 2 |
+Working Set: 1230 | Quanta: 84 | Page Frame: 3 |
+Working Set: 1230 | Quanta: 85 | Page Frame: 3 |
+Working Set: 1230 | Quanta: 86 | Page Frame: 2 |
+Working Set: 1230 | Quanta: 87 | Page Frame: 2 |
+Working Set: 1230 | Quanta: 88 | Page Frame: 1 |
+Working Set: 1230 | Quanta: 89 | Page Frame: 2 |
+Working Set: 1230 | Quanta: 90 | Page Frame: 1 |
+Working Set: 1230 | Quanta: 91 | Page Frame: 1 |
+Working Set: 1230 | Quanta: 92 | Page Frame: 0 |
+Working Set: 1230 | Quanta: 93 | Page Frame: 0 |
+Working Set: 1230 | Quanta: 94 | Page Frame: 0 |
+Working Set: 1230 | Quanta: 95 | Page Frame: 0 |
+Working Set: 1230 | Quanta: 96 | Page Frame: 0 |
+Working Set: 1230 | Quanta: 97 | Page Frame: 0 |
+Working Set: 1230 | Quanta: 98 | Page Frame: 0 |
+Working Set: 1230 | Quanta: 99 | Page Frame: 0 |
+Working Set: 1230 | Quanta: 100 | Page Frame: 0 |
+
+
+FIFO Hit Ratio: 0.81
+
+===================Run: 5====================
+
+WorkingSet/Quanta/PageToBeAdded
+--------------------------------------------
+Page 8 pages in
+--------------------------------------------
+Working Set: 8nnn | Quanta: 1 | Page Frame: 8 |
+--------------------------------------------
+Page 0 pages in / Page n evicted. Current hit: 0.0
+--------------------------------------------
+Working Set: 80nn | Quanta: 2 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page n evicted. Current hit: 0.0
+--------------------------------------------
+Working Set: 801n | Quanta: 3 | Page Frame: 1 |
+Working Set: 801n | Quanta: 4 | Page Frame: 1 |
+Working Set: 801n | Quanta: 5 | Page Frame: 0 |
+Working Set: 801n | Quanta: 6 | Page Frame: 1 |
+Working Set: 801n | Quanta: 7 | Page Frame: 1 |
+Working Set: 801n | Quanta: 8 | Page Frame: 1 |
+Working Set: 801n | Quanta: 9 | Page Frame: 0 |
+Working Set: 801n | Quanta: 10 | Page Frame: 1 |
+Working Set: 801n | Quanta: 11 | Page Frame: 1 |
+Working Set: 801n | Quanta: 12 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page n evicted. Current hit: 9.0
+--------------------------------------------
+Working Set: 8012 | Quanta: 13 | Page Frame: 2 |
+Working Set: 8012 | Quanta: 14 | Page Frame: 2 |
+Working Set: 8012 | Quanta: 15 | Page Frame: 2 |
+Working Set: 8012 | Quanta: 16 | Page Frame: 1 |
+Working Set: 8012 | Quanta: 17 | Page Frame: 1 |
+Working Set: 8012 | Quanta: 18 | Page Frame: 1 |
+Working Set: 8012 | Quanta: 19 | Page Frame: 2 |
+Working Set: 8012 | Quanta: 20 | Page Frame: 1 |
+Working Set: 8012 | Quanta: 21 | Page Frame: 1 |
+Working Set: 8012 | Quanta: 22 | Page Frame: 0 |
+Working Set: 8012 | Quanta: 23 | Page Frame: 0 |
+Working Set: 8012 | Quanta: 24 | Page Frame: 1 |
+Working Set: 8012 | Quanta: 25 | Page Frame: 1 |
+Working Set: 8012 | Quanta: 26 | Page Frame: 0 |
+Working Set: 8012 | Quanta: 27 | Page Frame: 1 |
+Working Set: 8012 | Quanta: 28 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 8 evicted. Current hit: 24.0
+--------------------------------------------
+Working Set: 3012 | Quanta: 29 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted. Current hit: 24.0
+--------------------------------------------
+Working Set: 3412 | Quanta: 30 | Page Frame: 4 |
+Working Set: 3412 | Quanta: 31 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted. Current hit: 25.0
+--------------------------------------------
+Working Set: 3452 | Quanta: 32 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 33 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 34 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 35 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 36 | Page Frame: 3 |
+Working Set: 3452 | Quanta: 37 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 38 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 39 | Page Frame: 3 |
+Working Set: 3452 | Quanta: 40 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 41 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 42 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 43 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 44 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 45 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 46 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 47 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 48 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 49 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 50 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 51 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 52 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 53 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 54 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 55 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 56 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 57 | Page Frame: 3 |
+Working Set: 3452 | Quanta: 58 | Page Frame: 4 |
+Working Set: 3452 | Quanta: 59 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 60 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted. Current hit: 53.0
+--------------------------------------------
+Working Set: 3456 | Quanta: 61 | Page Frame: 6 |
+Working Set: 3456 | Quanta: 62 | Page Frame: 6 |
+Working Set: 3456 | Quanta: 63 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted. Current hit: 55.0
+--------------------------------------------
+Working Set: 7456 | Quanta: 64 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted. Current hit: 55.0
+--------------------------------------------
+Working Set: 7056 | Quanta: 65 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted. Current hit: 55.0
+--------------------------------------------
+Working Set: 7016 | Quanta: 66 | Page Frame: 1 |
+Working Set: 7016 | Quanta: 67 | Page Frame: 1 |
+Working Set: 7016 | Quanta: 68 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 6 evicted. Current hit: 57.0
+--------------------------------------------
+Working Set: 7012 | Quanta: 69 | Page Frame: 2 |
+Working Set: 7012 | Quanta: 70 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 7 evicted. Current hit: 58.0
+--------------------------------------------
+Working Set: 3012 | Quanta: 71 | Page Frame: 3 |
+Working Set: 3012 | Quanta: 72 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted. Current hit: 59.0
+--------------------------------------------
+Working Set: 3412 | Quanta: 73 | Page Frame: 4 |
+Working Set: 3412 | Quanta: 74 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 75 | Page Frame: 2 |
+Working Set: 3412 | Quanta: 76 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 77 | Page Frame: 2 |
+Working Set: 3412 | Quanta: 78 | Page Frame: 1 |
+Working Set: 3412 | Quanta: 79 | Page Frame: 1 |
+Working Set: 3412 | Quanta: 80 | Page Frame: 2 |
+Working Set: 3412 | Quanta: 81 | Page Frame: 3 |
+Working Set: 3412 | Quanta: 82 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted. Current hit: 68.0
+--------------------------------------------
+Working Set: 3452 | Quanta: 83 | Page Frame: 5 |
+Working Set: 3452 | Quanta: 84 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted. Current hit: 69.0
+--------------------------------------------
+Working Set: 3456 | Quanta: 85 | Page Frame: 6 |
+Working Set: 3456 | Quanta: 86 | Page Frame: 5 |
+Working Set: 3456 | Quanta: 87 | Page Frame: 4 |
+Working Set: 3456 | Quanta: 88 | Page Frame: 4 |
+Working Set: 3456 | Quanta: 89 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted. Current hit: 73.0
+--------------------------------------------
+Working Set: 2456 | Quanta: 90 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 4 evicted. Current hit: 73.0
+--------------------------------------------
+Working Set: 2156 | Quanta: 91 | Page Frame: 1 |
+Working Set: 2156 | Quanta: 92 | Page Frame: 2 |
+Working Set: 2156 | Quanta: 93 | Page Frame: 2 |
+Working Set: 2156 | Quanta: 94 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 5 evicted. Current hit: 76.0
+--------------------------------------------
+Working Set: 2136 | Quanta: 95 | Page Frame: 3 |
+Working Set: 2136 | Quanta: 96 | Page Frame: 3 |
+Working Set: 2136 | Quanta: 97 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 6 evicted. Current hit: 78.0
+--------------------------------------------
+Working Set: 2134 | Quanta: 98 | Page Frame: 4 |
+Working Set: 2134 | Quanta: 99 | Page Frame: 3 |
+Working Set: 2134 | Quanta: 100 | Page Frame: 4 |
+
+
+FIFO Hit Ratio: 0.8
+
+
+-----------------------------------------------
+
+-----------------------------------------------
+----------------------LRU----------------------
+-----------------------------------------------
+
+-----------------------------------------------
+
+===================Run: 1====================
+
+--------------------------------------------
+Page 0 pages in
+--------------------------------------------
+Working Set: 0nnn | Quanta: 1 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 01nn | Quanta: 2 | Page Frame: 1 |
+Working Set: 01nn | Quanta: 3 | Page Frame: 0 |
+Working Set: 01nn | Quanta: 4 | Page Frame: 0 |
+Working Set: 01nn | Quanta: 5 | Page Frame: 0 |
+Working Set: 01nn | Quanta: 6 | Page Frame: 0 |
+Working Set: 01nn | Quanta: 7 | Page Frame: 0 |
+Working Set: 01nn | Quanta: 8 | Page Frame: 0 |
+Working Set: 01nn | Quanta: 9 | Page Frame: 0 |
+Working Set: 01nn | Quanta: 10 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 012n | Quanta: 11 | Page Frame: 2 |
+Working Set: 012n | Quanta: 12 | Page Frame: 2 |
+Working Set: 012n | Quanta: 13 | Page Frame: 1 |
+Working Set: 012n | Quanta: 14 | Page Frame: 1 |
+Working Set: 012n | Quanta: 15 | Page Frame: 2 |
+Working Set: 012n | Quanta: 16 | Page Frame: 2 |
+Working Set: 012n | Quanta: 17 | Page Frame: 1 |
+Working Set: 012n | Quanta: 18 | Page Frame: 0 |
+Working Set: 012n | Quanta: 19 | Page Frame: 0 |
+Working Set: 012n | Quanta: 20 | Page Frame: 1 |
+Working Set: 012n | Quanta: 21 | Page Frame: 0 |
+Working Set: 012n | Quanta: 22 | Page Frame: 0 |
+Working Set: 012n | Quanta: 23 | Page Frame: 0 |
+Working Set: 012n | Quanta: 24 | Page Frame: 0 |
+Working Set: 012n | Quanta: 25 | Page Frame: 0 |
+Working Set: 012n | Quanta: 26 | Page Frame: 1 |
+Working Set: 012n | Quanta: 27 | Page Frame: 2 |
+Working Set: 012n | Quanta: 28 | Page Frame: 2 |
+Working Set: 012n | Quanta: 29 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 0123 | Quanta: 30 | Page Frame: 3 |
+Working Set: 0123 | Quanta: 31 | Page Frame: 2 |
+Working Set: 0123 | Quanta: 32 | Page Frame: 3 |
+Working Set: 0123 | Quanta: 33 | Page Frame: 3 |
+Working Set: 0123 | Quanta: 34 | Page Frame: 2 |
+Working Set: 0123 | Quanta: 35 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 4123 | Quanta: 36 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 4523 | Quanta: 37 | Page Frame: 5 |
+Working Set: 4523 | Quanta: 38 | Page Frame: 5 |
+Working Set: 4523 | Quanta: 39 | Page Frame: 5 |
+Working Set: 4523 | Quanta: 40 | Page Frame: 5 |
+Working Set: 4523 | Quanta: 41 | Page Frame: 4 |
+Working Set: 4523 | Quanta: 42 | Page Frame: 3 |
+Working Set: 4523 | Quanta: 43 | Page Frame: 2 |
+Working Set: 4523 | Quanta: 44 | Page Frame: 3 |
+Working Set: 4523 | Quanta: 45 | Page Frame: 2 |
+Working Set: 4523 | Quanta: 46 | Page Frame: 3 |
+Working Set: 4523 | Quanta: 47 | Page Frame: 3 |
+Working Set: 4523 | Quanta: 48 | Page Frame: 2 |
+Working Set: 4523 | Quanta: 49 | Page Frame: 3 |
+Working Set: 4523 | Quanta: 50 | Page Frame: 3 |
+Working Set: 4523 | Quanta: 51 | Page Frame: 4 |
+Working Set: 4523 | Quanta: 52 | Page Frame: 3 |
+Working Set: 4523 | Quanta: 53 | Page Frame: 4 |
+Working Set: 4523 | Quanta: 54 | Page Frame: 4 |
+Working Set: 4523 | Quanta: 55 | Page Frame: 4 |
+Working Set: 4523 | Quanta: 56 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 4563 | Quanta: 57 | Page Frame: 6 |
+Working Set: 4563 | Quanta: 58 | Page Frame: 5 |
+Working Set: 4563 | Quanta: 59 | Page Frame: 6 |
+Working Set: 4563 | Quanta: 60 | Page Frame: 5 |
+Working Set: 4563 | Quanta: 61 | Page Frame: 4 |
+Working Set: 4563 | Quanta: 62 | Page Frame: 5 |
+Working Set: 4563 | Quanta: 63 | Page Frame: 5 |
+Working Set: 4563 | Quanta: 64 | Page Frame: 6 |
+Working Set: 4563 | Quanta: 65 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4567 | Quanta: 66 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 0567 | Quanta: 67 | Page Frame: 0 |
+Working Set: 0567 | Quanta: 68 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 0167 | Quanta: 69 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 0127 | Quanta: 70 | Page Frame: 2 |
+Working Set: 0127 | Quanta: 71 | Page Frame: 2 |
+Working Set: 0127 | Quanta: 72 | Page Frame: 1 |
+Working Set: 0127 | Quanta: 73 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 74 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 75 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 76 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 77 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 78 | Page Frame: 1 |
+Working Set: 0127 | Quanta: 79 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 80 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 81 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 82 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 83 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 84 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 85 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 86 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 87 | Page Frame: 1 |
+Working Set: 0127 | Quanta: 88 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 89 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 90 | Page Frame: 1 |
+Working Set: 0127 | Quanta: 91 | Page Frame: 1 |
+Working Set: 0127 | Quanta: 92 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 93 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 94 | Page Frame: 0 |
+Working Set: 0127 | Quanta: 95 | Page Frame: 1 |
+Working Set: 0127 | Quanta: 96 | Page Frame: 2 |
+Working Set: 0127 | Quanta: 97 | Page Frame: 1 |
+Working Set: 0127 | Quanta: 98 | Page Frame: 2 |
+Working Set: 0127 | Quanta: 99 | Page Frame: 1 |
+Working Set: 0127 | Quanta: 100 | Page Frame: 0 |
+
+
+LRU Hit Ratio: 0.89
+
+===================Run: 2====================
+
+--------------------------------------------
+Page 0 pages in
+--------------------------------------------
+Working Set: 9nnn | Quanta: 1 | Page Frame: 9 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 93nn | Quanta: 2 | Page Frame: 3 |
+Working Set: 93nn | Quanta: 3 | Page Frame: 3 |
+Working Set: 93nn | Quanta: 4 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 932n | Quanta: 5 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 9321 | Quanta: 6 | Page Frame: 1 |
+Working Set: 9321 | Quanta: 7 | Page Frame: 1 |
+Working Set: 9321 | Quanta: 8 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 9 evicted.
+--------------------------------------------
+Working Set: 0321 | Quanta: 9 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 10 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 11 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 12 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 13 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 14 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 15 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 16 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 17 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 18 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 19 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 20 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 21 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 22 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 23 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 24 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 25 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 26 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 27 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 28 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 29 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 30 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 31 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 32 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 33 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 34 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 35 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 36 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 37 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 38 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 39 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 40 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 41 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 4321 | Quanta: 42 | Page Frame: 4 |
+Working Set: 4321 | Quanta: 43 | Page Frame: 4 |
+Working Set: 4321 | Quanta: 44 | Page Frame: 4 |
+Working Set: 4321 | Quanta: 45 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 4325 | Quanta: 46 | Page Frame: 5 |
+Working Set: 4325 | Quanta: 47 | Page Frame: 5 |
+Working Set: 4325 | Quanta: 48 | Page Frame: 4 |
+Working Set: 4325 | Quanta: 49 | Page Frame: 3 |
+Working Set: 4325 | Quanta: 50 | Page Frame: 4 |
+Working Set: 4325 | Quanta: 51 | Page Frame: 4 |
+Working Set: 4325 | Quanta: 52 | Page Frame: 3 |
+Working Set: 4325 | Quanta: 53 | Page Frame: 3 |
+Working Set: 4325 | Quanta: 54 | Page Frame: 3 |
+Working Set: 4325 | Quanta: 55 | Page Frame: 2 |
+Working Set: 4325 | Quanta: 56 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 4321 | Quanta: 57 | Page Frame: 1 |
+Working Set: 4321 | Quanta: 58 | Page Frame: 1 |
+Working Set: 4321 | Quanta: 59 | Page Frame: 1 |
+Working Set: 4321 | Quanta: 60 | Page Frame: 1 |
+Working Set: 4321 | Quanta: 61 | Page Frame: 2 |
+Working Set: 4321 | Quanta: 62 | Page Frame: 3 |
+Working Set: 4321 | Quanta: 63 | Page Frame: 3 |
+Working Set: 4321 | Quanta: 64 | Page Frame: 3 |
+Working Set: 4321 | Quanta: 65 | Page Frame: 2 |
+Working Set: 4321 | Quanta: 66 | Page Frame: 2 |
+Working Set: 4321 | Quanta: 67 | Page Frame: 3 |
+Working Set: 4321 | Quanta: 68 | Page Frame: 2 |
+Working Set: 4321 | Quanta: 69 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 0321 | Quanta: 70 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 71 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 72 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 73 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 74 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 75 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 76 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 77 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 78 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 79 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 80 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 81 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 82 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 83 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 84 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 85 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 86 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 87 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 88 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 89 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 90 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 91 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 92 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 93 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 94 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 95 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 96 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 97 | Page Frame: 1 |
+Working Set: 0321 | Quanta: 98 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 99 | Page Frame: 0 |
+Working Set: 0321 | Quanta: 100 | Page Frame: 0 |
+
+
+LRU Hit Ratio: 0.91
+
+===================Run: 3====================
+
+--------------------------------------------
+Page 0 pages in
+--------------------------------------------
+Working Set: 7nnn | Quanta: 1 | Page Frame: 7 |
+--------------------------------------------
+Page 5 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 75nn | Quanta: 2 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 756n | Quanta: 3 | Page Frame: 6 |
+Working Set: 756n | Quanta: 4 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 7560 | Quanta: 5 | Page Frame: 0 |
+Working Set: 7560 | Quanta: 6 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 7160 | Quanta: 7 | Page Frame: 1 |
+Working Set: 7160 | Quanta: 8 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 7120 | Quanta: 9 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 3120 | Quanta: 10 | Page Frame: 3 |
+Working Set: 3120 | Quanta: 11 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 3124 | Quanta: 12 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 3524 | Quanta: 13 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3564 | Quanta: 14 | Page Frame: 6 |
+Working Set: 3564 | Quanta: 15 | Page Frame: 5 |
+Working Set: 3564 | Quanta: 16 | Page Frame: 6 |
+Working Set: 3564 | Quanta: 17 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 7564 | Quanta: 18 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 7560 | Quanta: 19 | Page Frame: 0 |
+Working Set: 7560 | Quanta: 20 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 7160 | Quanta: 21 | Page Frame: 1 |
+Working Set: 7160 | Quanta: 22 | Page Frame: 1 |
+Working Set: 7160 | Quanta: 23 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 7120 | Quanta: 24 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 3120 | Quanta: 25 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 3124 | Quanta: 26 | Page Frame: 4 |
+Working Set: 3124 | Quanta: 27 | Page Frame: 4 |
+Working Set: 3124 | Quanta: 28 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 29 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 30 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 31 | Page Frame: 4 |
+Working Set: 3124 | Quanta: 32 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 33 | Page Frame: 4 |
+Working Set: 3124 | Quanta: 34 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 35 | Page Frame: 4 |
+Working Set: 3124 | Quanta: 36 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 3524 | Quanta: 37 | Page Frame: 5 |
+Working Set: 3524 | Quanta: 38 | Page Frame: 5 |
+Working Set: 3524 | Quanta: 39 | Page Frame: 4 |
+Working Set: 3524 | Quanta: 40 | Page Frame: 4 |
+Working Set: 3524 | Quanta: 41 | Page Frame: 4 |
+Working Set: 3524 | Quanta: 42 | Page Frame: 5 |
+Working Set: 3524 | Quanta: 43 | Page Frame: 4 |
+Working Set: 3524 | Quanta: 44 | Page Frame: 5 |
+Working Set: 3524 | Quanta: 45 | Page Frame: 5 |
+Working Set: 3524 | Quanta: 46 | Page Frame: 5 |
+Working Set: 3524 | Quanta: 47 | Page Frame: 5 |
+Working Set: 3524 | Quanta: 48 | Page Frame: 4 |
+Working Set: 3524 | Quanta: 49 | Page Frame: 3 |
+Working Set: 3524 | Quanta: 50 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 3124 | Quanta: 51 | Page Frame: 1 |
+Working Set: 3124 | Quanta: 52 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3120 | Quanta: 53 | Page Frame: 0 |
+Working Set: 3120 | Quanta: 54 | Page Frame: 0 |
+Working Set: 3120 | Quanta: 55 | Page Frame: 0 |
+Working Set: 3120 | Quanta: 56 | Page Frame: 1 |
+Working Set: 3120 | Quanta: 57 | Page Frame: 2 |
+Working Set: 3120 | Quanta: 58 | Page Frame: 2 |
+Working Set: 3120 | Quanta: 59 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 3124 | Quanta: 60 | Page Frame: 4 |
+Working Set: 3124 | Quanta: 61 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 62 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 63 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 64 | Page Frame: 4 |
+Working Set: 3124 | Quanta: 65 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 66 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 67 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 68 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 3524 | Quanta: 69 | Page Frame: 5 |
+Working Set: 3524 | Quanta: 70 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3564 | Quanta: 71 | Page Frame: 6 |
+Working Set: 3564 | Quanta: 72 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 7564 | Quanta: 73 | Page Frame: 7 |
+--------------------------------------------
+Page 9 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 7569 | Quanta: 74 | Page Frame: 9 |
+--------------------------------------------
+Page 0 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 7069 | Quanta: 75 | Page Frame: 0 |
+Working Set: 7069 | Quanta: 76 | Page Frame: 0 |
+Working Set: 7069 | Quanta: 77 | Page Frame: 0 |
+Working Set: 7069 | Quanta: 78 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 7019 | Quanta: 79 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 2019 | Quanta: 80 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 9 evicted.
+--------------------------------------------
+Working Set: 2013 | Quanta: 81 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 2413 | Quanta: 82 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 2453 | Quanta: 83 | Page Frame: 5 |
+Working Set: 2453 | Quanta: 84 | Page Frame: 5 |
+Working Set: 2453 | Quanta: 85 | Page Frame: 5 |
+Working Set: 2453 | Quanta: 86 | Page Frame: 4 |
+Working Set: 2453 | Quanta: 87 | Page Frame: 3 |
+Working Set: 2453 | Quanta: 88 | Page Frame: 3 |
+Working Set: 2453 | Quanta: 89 | Page Frame: 3 |
+Working Set: 2453 | Quanta: 90 | Page Frame: 4 |
+Working Set: 2453 | Quanta: 91 | Page Frame: 3 |
+Working Set: 2453 | Quanta: 92 | Page Frame: 2 |
+Working Set: 2453 | Quanta: 93 | Page Frame: 3 |
+Working Set: 2453 | Quanta: 94 | Page Frame: 4 |
+Working Set: 2453 | Quanta: 95 | Page Frame: 3 |
+Working Set: 2453 | Quanta: 96 | Page Frame: 4 |
+Working Set: 2453 | Quanta: 97 | Page Frame: 5 |
+Working Set: 2453 | Quanta: 98 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 6453 | Quanta: 99 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 6457 | Quanta: 100 | Page Frame: 7 |
+
+
+LRU Hit Ratio: 0.68
+
+===================Run: 4====================
+
+--------------------------------------------
+Page 7 pages in
+--------------------------------------------
+Working Set: 6nnn | Quanta: 1 | Page Frame: 6 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 62nn | Quanta: 2 | Page Frame: 2 |
+Working Set: 62nn | Quanta: 3 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 623n | Quanta: 4 | Page Frame: 3 |
+Working Set: 623n | Quanta: 5 | Page Frame: 3 |
+Working Set: 623n | Quanta: 6 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 6234 | Quanta: 7 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 5234 | Quanta: 8 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 9 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 10 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 11 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 12 | Page Frame: 3 |
+Working Set: 5234 | Quanta: 13 | Page Frame: 3 |
+Working Set: 5234 | Quanta: 14 | Page Frame: 2 |
+Working Set: 5234 | Quanta: 15 | Page Frame: 3 |
+Working Set: 5234 | Quanta: 16 | Page Frame: 2 |
+Working Set: 5234 | Quanta: 17 | Page Frame: 2 |
+Working Set: 5234 | Quanta: 18 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 1234 | Quanta: 19 | Page Frame: 1 |
+Working Set: 1234 | Quanta: 20 | Page Frame: 1 |
+Working Set: 1234 | Quanta: 21 | Page Frame: 1 |
+Working Set: 1234 | Quanta: 22 | Page Frame: 2 |
+Working Set: 1234 | Quanta: 23 | Page Frame: 1 |
+Working Set: 1234 | Quanta: 24 | Page Frame: 1 |
+Working Set: 1234 | Quanta: 25 | Page Frame: 2 |
+Working Set: 1234 | Quanta: 26 | Page Frame: 3 |
+Working Set: 1234 | Quanta: 27 | Page Frame: 2 |
+Working Set: 1234 | Quanta: 28 | Page Frame: 1 |
+Working Set: 1234 | Quanta: 29 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1230 | Quanta: 30 | Page Frame: 0 |
+Working Set: 1230 | Quanta: 31 | Page Frame: 1 |
+Working Set: 1230 | Quanta: 32 | Page Frame: 2 |
+Working Set: 1230 | Quanta: 33 | Page Frame: 2 |
+Working Set: 1230 | Quanta: 34 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1234 | Quanta: 35 | Page Frame: 4 |
+Working Set: 1234 | Quanta: 36 | Page Frame: 4 |
+Working Set: 1234 | Quanta: 37 | Page Frame: 3 |
+Working Set: 1234 | Quanta: 38 | Page Frame: 4 |
+Working Set: 1234 | Quanta: 39 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 5234 | Quanta: 40 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 5634 | Quanta: 41 | Page Frame: 6 |
+Working Set: 5634 | Quanta: 42 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 43 | Page Frame: 4 |
+Working Set: 5634 | Quanta: 44 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 45 | Page Frame: 4 |
+Working Set: 5634 | Quanta: 46 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 47 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 48 | Page Frame: 4 |
+Working Set: 5634 | Quanta: 49 | Page Frame: 3 |
+Working Set: 5634 | Quanta: 50 | Page Frame: 4 |
+Working Set: 5634 | Quanta: 51 | Page Frame: 4 |
+Working Set: 5634 | Quanta: 52 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 53 | Page Frame: 4 |
+Working Set: 5634 | Quanta: 54 | Page Frame: 4 |
+Working Set: 5634 | Quanta: 55 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 56 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 57 | Page Frame: 6 |
+Working Set: 5634 | Quanta: 58 | Page Frame: 6 |
+Working Set: 5634 | Quanta: 59 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 60 | Page Frame: 4 |
+Working Set: 5634 | Quanta: 61 | Page Frame: 5 |
+Working Set: 5634 | Quanta: 62 | Page Frame: 6 |
+Working Set: 5634 | Quanta: 63 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 5674 | Quanta: 64 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 5670 | Quanta: 65 | Page Frame: 0 |
+Working Set: 5670 | Quanta: 66 | Page Frame: 0 |
+Working Set: 5670 | Quanta: 67 | Page Frame: 0 |
+Working Set: 5670 | Quanta: 68 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 1670 | Quanta: 69 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 1270 | Quanta: 70 | Page Frame: 2 |
+Working Set: 1270 | Quanta: 71 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 1230 | Quanta: 72 | Page Frame: 3 |
+Working Set: 1230 | Quanta: 73 | Page Frame: 2 |
+Working Set: 1230 | Quanta: 74 | Page Frame: 2 |
+Working Set: 1230 | Quanta: 75 | Page Frame: 2 |
+Working Set: 1230 | Quanta: 76 | Page Frame: 3 |
+Working Set: 1230 | Quanta: 77 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1234 | Quanta: 78 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 5234 | Quanta: 79 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 5634 | Quanta: 80 | Page Frame: 6 |
+Working Set: 5634 | Quanta: 81 | Page Frame: 6 |
+Working Set: 5634 | Quanta: 82 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 5674 | Quanta: 83 | Page Frame: 7 |
+--------------------------------------------
+Page 9 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 5679 | Quanta: 84 | Page Frame: 9 |
+--------------------------------------------
+Page 0 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 0679 | Quanta: 85 | Page Frame: 0 |
+Working Set: 0679 | Quanta: 86 | Page Frame: 0 |
+Working Set: 0679 | Quanta: 87 | Page Frame: 0 |
+Working Set: 0679 | Quanta: 88 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 0179 | Quanta: 89 | Page Frame: 1 |
+Working Set: 0179 | Quanta: 90 | Page Frame: 1 |
+Working Set: 0179 | Quanta: 91 | Page Frame: 1 |
+Working Set: 0179 | Quanta: 92 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 0129 | Quanta: 93 | Page Frame: 2 |
+Working Set: 0129 | Quanta: 94 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 9 evicted.
+--------------------------------------------
+Working Set: 0123 | Quanta: 95 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 4123 | Quanta: 96 | Page Frame: 4 |
+Working Set: 4123 | Quanta: 97 | Page Frame: 3 |
+Working Set: 4123 | Quanta: 98 | Page Frame: 3 |
+Working Set: 4123 | Quanta: 99 | Page Frame: 4 |
+Working Set: 4123 | Quanta: 100 | Page Frame: 4 |
+
+
+LRU Hit Ratio: 0.75
+
+===================Run: 5====================
+
+--------------------------------------------
+Page 4 pages in
+--------------------------------------------
+Working Set: 3nnn | Quanta: 1 | Page Frame: 3 |
+Working Set: 3nnn | Quanta: 2 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 32nn | Quanta: 3 | Page Frame: 2 |
+Working Set: 32nn | Quanta: 4 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 324n | Quanta: 5 | Page Frame: 4 |
+Working Set: 324n | Quanta: 6 | Page Frame: 3 |
+Working Set: 324n | Quanta: 7 | Page Frame: 4 |
+Working Set: 324n | Quanta: 8 | Page Frame: 3 |
+Working Set: 324n | Quanta: 9 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 3245 | Quanta: 10 | Page Frame: 5 |
+Working Set: 3245 | Quanta: 11 | Page Frame: 5 |
+Working Set: 3245 | Quanta: 12 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3645 | Quanta: 13 | Page Frame: 6 |
+Working Set: 3645 | Quanta: 14 | Page Frame: 5 |
+Working Set: 3645 | Quanta: 15 | Page Frame: 6 |
+Working Set: 3645 | Quanta: 16 | Page Frame: 6 |
+Working Set: 3645 | Quanta: 17 | Page Frame: 5 |
+Working Set: 3645 | Quanta: 18 | Page Frame: 5 |
+Working Set: 3645 | Quanta: 19 | Page Frame: 6 |
+Working Set: 3645 | Quanta: 20 | Page Frame: 6 |
+Working Set: 3645 | Quanta: 21 | Page Frame: 5 |
+Working Set: 3645 | Quanta: 22 | Page Frame: 5 |
+Working Set: 3645 | Quanta: 23 | Page Frame: 4 |
+Working Set: 3645 | Quanta: 24 | Page Frame: 4 |
+Working Set: 3645 | Quanta: 25 | Page Frame: 4 |
+Working Set: 3645 | Quanta: 26 | Page Frame: 3 |
+Working Set: 3645 | Quanta: 27 | Page Frame: 4 |
+Working Set: 3645 | Quanta: 28 | Page Frame: 5 |
+Working Set: 3645 | Quanta: 29 | Page Frame: 6 |
+Working Set: 3645 | Quanta: 30 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 7645 | Quanta: 31 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 7605 | Quanta: 32 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 7601 | Quanta: 33 | Page Frame: 1 |
+Working Set: 7601 | Quanta: 34 | Page Frame: 0 |
+Working Set: 7601 | Quanta: 35 | Page Frame: 0 |
+Working Set: 7601 | Quanta: 36 | Page Frame: 0 |
+Working Set: 7601 | Quanta: 37 | Page Frame: 0 |
+Working Set: 7601 | Quanta: 38 | Page Frame: 0 |
+Working Set: 7601 | Quanta: 39 | Page Frame: 0 |
+Working Set: 7601 | Quanta: 40 | Page Frame: 0 |
+Working Set: 7601 | Quanta: 41 | Page Frame: 0 |
+Working Set: 7601 | Quanta: 42 | Page Frame: 0 |
+Working Set: 7601 | Quanta: 43 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 7201 | Quanta: 44 | Page Frame: 2 |
+Working Set: 7201 | Quanta: 45 | Page Frame: 1 |
+Working Set: 7201 | Quanta: 46 | Page Frame: 1 |
+Working Set: 7201 | Quanta: 47 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 48 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 49 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 50 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 51 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 52 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 53 | Page Frame: 1 |
+Working Set: 7201 | Quanta: 54 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 55 | Page Frame: 1 |
+Working Set: 7201 | Quanta: 56 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 57 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 58 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 59 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 60 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 61 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 62 | Page Frame: 0 |
+Working Set: 7201 | Quanta: 63 | Page Frame: 1 |
+Working Set: 7201 | Quanta: 64 | Page Frame: 2 |
+Working Set: 7201 | Quanta: 65 | Page Frame: 1 |
+Working Set: 7201 | Quanta: 66 | Page Frame: 2 |
+Working Set: 7201 | Quanta: 67 | Page Frame: 1 |
+Working Set: 7201 | Quanta: 68 | Page Frame: 2 |
+Working Set: 7201 | Quanta: 69 | Page Frame: 1 |
+Working Set: 7201 | Quanta: 70 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 3201 | Quanta: 71 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 3241 | Quanta: 72 | Page Frame: 4 |
+Working Set: 3241 | Quanta: 73 | Page Frame: 4 |
+Working Set: 3241 | Quanta: 74 | Page Frame: 3 |
+Working Set: 3241 | Quanta: 75 | Page Frame: 3 |
+Working Set: 3241 | Quanta: 76 | Page Frame: 3 |
+Working Set: 3241 | Quanta: 77 | Page Frame: 2 |
+Working Set: 3241 | Quanta: 78 | Page Frame: 1 |
+Working Set: 3241 | Quanta: 79 | Page Frame: 1 |
+Working Set: 3241 | Quanta: 80 | Page Frame: 2 |
+Working Set: 3241 | Quanta: 81 | Page Frame: 2 |
+Working Set: 3241 | Quanta: 82 | Page Frame: 1 |
+Working Set: 3241 | Quanta: 83 | Page Frame: 2 |
+Working Set: 3241 | Quanta: 84 | Page Frame: 3 |
+Working Set: 3241 | Quanta: 85 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 3245 | Quanta: 86 | Page Frame: 5 |
+Working Set: 3245 | Quanta: 87 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3645 | Quanta: 88 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 7645 | Quanta: 89 | Page Frame: 7 |
+--------------------------------------------
+Page 9 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 7695 | Quanta: 90 | Page Frame: 9 |
+--------------------------------------------
+Page 0 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 7690 | Quanta: 91 | Page Frame: 0 |
+Working Set: 7690 | Quanta: 92 | Page Frame: 0 |
+Working Set: 7690 | Quanta: 93 | Page Frame: 0 |
+Working Set: 7690 | Quanta: 94 | Page Frame: 0 |
+Working Set: 7690 | Quanta: 95 | Page Frame: 0 |
+Working Set: 7690 | Quanta: 96 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 7190 | Quanta: 97 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 2190 | Quanta: 98 | Page Frame: 2 |
+Working Set: 2190 | Quanta: 99 | Page Frame: 1 |
+Working Set: 2190 | Quanta: 100 | Page Frame: 0 |
+
+
+LRU Hit Ratio: 0.82
+
+
+-----------------------------------------------
+
+-----------------------------------------------
+----------------------LFU----------------------
+-----------------------------------------------
+
+-----------------------------------------------
+
+===================Run: 1====================
+
+--------------------------------------------
+Page 0 pages in
+--------------------------------------------
+Working Set: 9nnn | Quanta: 1 | Page Frame: 9 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 93nn | Quanta: 2 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 932n | Quanta: 3 | Page Frame: 2 |
+Working Set: 932n | Quanta: 4 | Page Frame: 2 |
+Working Set: 932n | Quanta: 5 | Page Frame: 3 |
+Working Set: 932n | Quanta: 6 | Page Frame: 3 |
+Working Set: 932n | Quanta: 7 | Page Frame: 3 |
+Working Set: 932n | Quanta: 8 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 9324 | Quanta: 9 | Page Frame: 4 |
+Working Set: 9324 | Quanta: 10 | Page Frame: 4 |
+Working Set: 9324 | Quanta: 11 | Page Frame: 3 |
+Working Set: 9324 | Quanta: 12 | Page Frame: 2 |
+Working Set: 9324 | Quanta: 13 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 9 evicted.
+--------------------------------------------
+Working Set: 1324 | Quanta: 14 | Page Frame: 1 |
+Working Set: 1324 | Quanta: 15 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1320 | Quanta: 16 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 17 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 18 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 19 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 20 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 21 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 22 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 23 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 24 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 25 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 26 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 27 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 28 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 29 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 30 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 31 | Page Frame: 3 |
+Working Set: 1320 | Quanta: 32 | Page Frame: 3 |
+Working Set: 1320 | Quanta: 33 | Page Frame: 3 |
+Working Set: 1320 | Quanta: 34 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 1340 | Quanta: 35 | Page Frame: 4 |
+Working Set: 1340 | Quanta: 36 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1350 | Quanta: 37 | Page Frame: 5 |
+--------------------------------------------
+Page 4 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 1340 | Quanta: 38 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1350 | Quanta: 39 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 1360 | Quanta: 40 | Page Frame: 6 |
+--------------------------------------------
+Page 5 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 1350 | Quanta: 41 | Page Frame: 5 |
+Working Set: 1350 | Quanta: 42 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 1360 | Quanta: 43 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 1370 | Quanta: 44 | Page Frame: 7 |
+Working Set: 1370 | Quanta: 45 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 46 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 47 | Page Frame: 1 |
+Working Set: 1370 | Quanta: 48 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 49 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 50 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 51 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 1320 | Quanta: 52 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 53 | Page Frame: 3 |
+Working Set: 1320 | Quanta: 54 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 55 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 56 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 57 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 58 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 59 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 60 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 61 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 62 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 63 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 64 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 65 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 66 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 67 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 68 | Page Frame: 3 |
+Working Set: 1320 | Quanta: 69 | Page Frame: 3 |
+Working Set: 1320 | Quanta: 70 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 1340 | Quanta: 71 | Page Frame: 4 |
+Working Set: 1340 | Quanta: 72 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1350 | Quanta: 73 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 1360 | Quanta: 74 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 1370 | Quanta: 75 | Page Frame: 7 |
+Working Set: 1370 | Quanta: 76 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 77 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 78 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 79 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 80 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 81 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 82 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 83 | Page Frame: 1 |
+Working Set: 1370 | Quanta: 84 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 85 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 86 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 87 | Page Frame: 1 |
+Working Set: 1370 | Quanta: 88 | Page Frame: 1 |
+Working Set: 1370 | Quanta: 89 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 90 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 91 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 92 | Page Frame: 0 |
+Working Set: 1370 | Quanta: 93 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 1320 | Quanta: 94 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 95 | Page Frame: 3 |
+Working Set: 1320 | Quanta: 96 | Page Frame: 3 |
+Working Set: 1320 | Quanta: 97 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 98 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 99 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 1340 | Quanta: 100 | Page Frame: 4 |
+
+
+LFU Hit Ratio: 0.79
+
+===================Run: 2====================
+
+--------------------------------------------
+Page 4 pages in
+--------------------------------------------
+Working Set: 5nnn | Quanta: 1 | Page Frame: 5 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 53nn | Quanta: 2 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 534n | Quanta: 3 | Page Frame: 4 |
+Working Set: 534n | Quanta: 4 | Page Frame: 5 |
+Working Set: 534n | Quanta: 5 | Page Frame: 4 |
+Working Set: 534n | Quanta: 6 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 5342 | Quanta: 7 | Page Frame: 2 |
+Working Set: 5342 | Quanta: 8 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 9 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 10 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 5341 | Quanta: 11 | Page Frame: 1 |
+Working Set: 5341 | Quanta: 12 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 5342 | Quanta: 13 | Page Frame: 2 |
+Working Set: 5342 | Quanta: 14 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 15 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 16 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 17 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 18 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 19 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 20 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 21 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 22 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 5346 | Quanta: 23 | Page Frame: 6 |
+Working Set: 5346 | Quanta: 24 | Page Frame: 5 |
+Working Set: 5346 | Quanta: 25 | Page Frame: 4 |
+Working Set: 5346 | Quanta: 26 | Page Frame: 3 |
+Working Set: 5346 | Quanta: 27 | Page Frame: 4 |
+Working Set: 5346 | Quanta: 28 | Page Frame: 3 |
+Working Set: 5346 | Quanta: 29 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 5342 | Quanta: 30 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 5341 | Quanta: 31 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 5342 | Quanta: 32 | Page Frame: 2 |
+Working Set: 5342 | Quanta: 33 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 34 | Page Frame: 2 |
+Working Set: 5342 | Quanta: 35 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 36 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 37 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 38 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 39 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 40 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 41 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 42 | Page Frame: 2 |
+Working Set: 5342 | Quanta: 43 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 44 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 45 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 46 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 47 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 48 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 49 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 50 | Page Frame: 2 |
+Working Set: 5342 | Quanta: 51 | Page Frame: 2 |
+Working Set: 5342 | Quanta: 52 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 53 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 54 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 55 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 56 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 57 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 58 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 59 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 60 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 61 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 62 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 63 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 64 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 65 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 66 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 67 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 68 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 69 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 70 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 71 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 5346 | Quanta: 72 | Page Frame: 6 |
+Working Set: 5346 | Quanta: 73 | Page Frame: 5 |
+Working Set: 5346 | Quanta: 74 | Page Frame: 4 |
+Working Set: 5346 | Quanta: 75 | Page Frame: 5 |
+Working Set: 5346 | Quanta: 76 | Page Frame: 6 |
+Working Set: 5346 | Quanta: 77 | Page Frame: 5 |
+Working Set: 5346 | Quanta: 78 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 5347 | Quanta: 79 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 5340 | Quanta: 80 | Page Frame: 0 |
+Working Set: 5340 | Quanta: 81 | Page Frame: 0 |
+Working Set: 5340 | Quanta: 82 | Page Frame: 0 |
+Working Set: 5340 | Quanta: 83 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 5341 | Quanta: 84 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 5342 | Quanta: 85 | Page Frame: 2 |
+Working Set: 5342 | Quanta: 86 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 87 | Page Frame: 2 |
+Working Set: 5342 | Quanta: 88 | Page Frame: 2 |
+Working Set: 5342 | Quanta: 89 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 90 | Page Frame: 2 |
+Working Set: 5342 | Quanta: 91 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 92 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 93 | Page Frame: 3 |
+Working Set: 5342 | Quanta: 94 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 95 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 96 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 97 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 98 | Page Frame: 4 |
+Working Set: 5342 | Quanta: 99 | Page Frame: 5 |
+Working Set: 5342 | Quanta: 100 | Page Frame: 5 |
+
+
+LFU Hit Ratio: 0.85
+
+===================Run: 3====================
+
+--------------------------------------------
+Page 5 pages in
+--------------------------------------------
+Working Set: 4nnn | Quanta: 1 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 45nn | Quanta: 2 | Page Frame: 5 |
+Working Set: 45nn | Quanta: 3 | Page Frame: 4 |
+Working Set: 45nn | Quanta: 4 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 456n | Quanta: 5 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 4567 | Quanta: 6 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 4560 | Quanta: 7 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 4561 | Quanta: 8 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 4560 | Quanta: 9 | Page Frame: 0 |
+Working Set: 4560 | Quanta: 10 | Page Frame: 0 |
+Working Set: 4560 | Quanta: 11 | Page Frame: 0 |
+Working Set: 4560 | Quanta: 12 | Page Frame: 0 |
+Working Set: 4560 | Quanta: 13 | Page Frame: 0 |
+Working Set: 4560 | Quanta: 14 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 4510 | Quanta: 15 | Page Frame: 1 |
+Working Set: 4510 | Quanta: 16 | Page Frame: 1 |
+Working Set: 4510 | Quanta: 17 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 4210 | Quanta: 18 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 4310 | Quanta: 19 | Page Frame: 3 |
+Working Set: 4310 | Quanta: 20 | Page Frame: 3 |
+Working Set: 4310 | Quanta: 21 | Page Frame: 4 |
+Working Set: 4310 | Quanta: 22 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4510 | Quanta: 23 | Page Frame: 5 |
+Working Set: 4510 | Quanta: 24 | Page Frame: 5 |
+Working Set: 4510 | Quanta: 25 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 4560 | Quanta: 26 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 4570 | Quanta: 27 | Page Frame: 7 |
+Working Set: 4570 | Quanta: 28 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 4510 | Quanta: 29 | Page Frame: 1 |
+Working Set: 4510 | Quanta: 30 | Page Frame: 1 |
+Working Set: 4510 | Quanta: 31 | Page Frame: 0 |
+Working Set: 4510 | Quanta: 32 | Page Frame: 1 |
+Working Set: 4510 | Quanta: 33 | Page Frame: 0 |
+Working Set: 4510 | Quanta: 34 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 2510 | Quanta: 35 | Page Frame: 2 |
+Working Set: 2510 | Quanta: 36 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3510 | Quanta: 37 | Page Frame: 3 |
+Working Set: 3510 | Quanta: 38 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4510 | Quanta: 39 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 4310 | Quanta: 40 | Page Frame: 3 |
+Working Set: 4310 | Quanta: 41 | Page Frame: 4 |
+Working Set: 4310 | Quanta: 42 | Page Frame: 3 |
+Working Set: 4310 | Quanta: 43 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 2310 | Quanta: 44 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 45 | Page Frame: 3 |
+Working Set: 2310 | Quanta: 46 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 47 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 48 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 49 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 50 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 51 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 52 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 53 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 54 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 55 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 56 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 57 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 58 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 59 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 60 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 61 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 62 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 63 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 64 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 65 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 66 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 67 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 68 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 69 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 70 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 71 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 72 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 73 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 74 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 75 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 76 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 77 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 78 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 79 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 80 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 81 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 82 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 83 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 84 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 85 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 86 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 87 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 88 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 89 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 90 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 91 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 92 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 93 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 94 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 95 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 96 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 97 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 98 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 99 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 100 | Page Frame: 1 |
+
+
+LFU Hit Ratio: 0.81
+
+===================Run: 4====================
+
+--------------------------------------------
+Page 1 pages in
+--------------------------------------------
+Working Set: 0nnn | Quanta: 1 | Page Frame: 0 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 03nn | Quanta: 2 | Page Frame: 3 |
+Working Set: 03nn | Quanta: 3 | Page Frame: 3 |
+Working Set: 03nn | Quanta: 4 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 034n | Quanta: 5 | Page Frame: 4 |
+Working Set: 034n | Quanta: 6 | Page Frame: 3 |
+Working Set: 034n | Quanta: 7 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 0342 | Quanta: 8 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 0341 | Quanta: 9 | Page Frame: 1 |
+Working Set: 0341 | Quanta: 10 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 0321 | Quanta: 11 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 12 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 13 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 14 | Page Frame: 3 |
+Working Set: 0321 | Quanta: 15 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 16 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 17 | Page Frame: 2 |
+Working Set: 0321 | Quanta: 18 | Page Frame: 3 |
+Working Set: 0321 | Quanta: 19 | Page Frame: 3 |
+Working Set: 0321 | Quanta: 20 | Page Frame: 3 |
+Working Set: 0321 | Quanta: 21 | Page Frame: 3 |
+Working Set: 0321 | Quanta: 22 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 4321 | Quanta: 23 | Page Frame: 4 |
+Working Set: 4321 | Quanta: 24 | Page Frame: 3 |
+Working Set: 4321 | Quanta: 25 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 4325 | Quanta: 26 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 4326 | Quanta: 27 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 4327 | Quanta: 28 | Page Frame: 7 |
+--------------------------------------------
+Page 9 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 4329 | Quanta: 29 | Page Frame: 9 |
+--------------------------------------------
+Page 0 pages in / Page 9 evicted.
+--------------------------------------------
+Working Set: 4320 | Quanta: 30 | Page Frame: 0 |
+Working Set: 4320 | Quanta: 31 | Page Frame: 0 |
+Working Set: 4320 | Quanta: 32 | Page Frame: 0 |
+Working Set: 4320 | Quanta: 33 | Page Frame: 0 |
+Working Set: 4320 | Quanta: 34 | Page Frame: 0 |
+Working Set: 4320 | Quanta: 35 | Page Frame: 0 |
+Working Set: 4320 | Quanta: 36 | Page Frame: 0 |
+Working Set: 4320 | Quanta: 37 | Page Frame: 0 |
+Working Set: 4320 | Quanta: 38 | Page Frame: 0 |
+Working Set: 4320 | Quanta: 39 | Page Frame: 0 |
+Working Set: 4320 | Quanta: 40 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1320 | Quanta: 41 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 42 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 43 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 44 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 45 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 46 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 47 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 48 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 49 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 50 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 51 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 52 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 53 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 54 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 55 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 56 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 57 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 58 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 59 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 60 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 61 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 62 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 63 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 64 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 65 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 66 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 67 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 68 | Page Frame: 3 |
+Working Set: 1320 | Quanta: 69 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 70 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 1420 | Quanta: 71 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1320 | Quanta: 72 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 4320 | Quanta: 73 | Page Frame: 4 |
+Working Set: 4320 | Quanta: 74 | Page Frame: 4 |
+Working Set: 4320 | Quanta: 75 | Page Frame: 3 |
+Working Set: 4320 | Quanta: 76 | Page Frame: 3 |
+Working Set: 4320 | Quanta: 77 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1320 | Quanta: 78 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 79 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 80 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 81 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 82 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 83 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 84 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 85 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 86 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 87 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 88 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 89 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 90 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 91 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 92 | Page Frame: 2 |
+Working Set: 1320 | Quanta: 93 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 94 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 95 | Page Frame: 1 |
+Working Set: 1320 | Quanta: 96 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 97 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 98 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 99 | Page Frame: 0 |
+Working Set: 1320 | Quanta: 100 | Page Frame: 1 |
+
+
+LFU Hit Ratio: 0.83
+
+===================Run: 5====================
+
+--------------------------------------------
+Page 1 pages in
+--------------------------------------------
+Working Set: 7nnn | Quanta: 1 | Page Frame: 7 |
+Working Set: 7nnn | Quanta: 2 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 70nn | Quanta: 3 | Page Frame: 0 |
+Working Set: 70nn | Quanta: 4 | Page Frame: 0 |
+Working Set: 70nn | Quanta: 5 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 701n | Quanta: 6 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 7012 | Quanta: 7 | Page Frame: 2 |
+Working Set: 7012 | Quanta: 8 | Page Frame: 1 |
+Working Set: 7012 | Quanta: 9 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 10 | Page Frame: 1 |
+Working Set: 7012 | Quanta: 11 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 12 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 13 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 14 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 15 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 16 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 17 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 18 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 19 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 20 | Page Frame: 1 |
+Working Set: 7012 | Quanta: 21 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 22 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 23 | Page Frame: 1 |
+Working Set: 7012 | Quanta: 24 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 25 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 26 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 27 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 28 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 29 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 30 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 31 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 32 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 33 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 34 | Page Frame: 1 |
+Working Set: 7012 | Quanta: 35 | Page Frame: 1 |
+Working Set: 7012 | Quanta: 36 | Page Frame: 1 |
+Working Set: 7012 | Quanta: 37 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 38 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 39 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 40 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 41 | Page Frame: 1 |
+Working Set: 7012 | Quanta: 42 | Page Frame: 1 |
+Working Set: 7012 | Quanta: 43 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 44 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 45 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 46 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 47 | Page Frame: 1 |
+Working Set: 7012 | Quanta: 48 | Page Frame: 2 |
+Working Set: 7012 | Quanta: 49 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 7 evicted.
+--------------------------------------------
+Working Set: 3012 | Quanta: 50 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4012 | Quanta: 51 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3012 | Quanta: 52 | Page Frame: 3 |
+Working Set: 3012 | Quanta: 53 | Page Frame: 2 |
+Working Set: 3012 | Quanta: 54 | Page Frame: 2 |
+Working Set: 3012 | Quanta: 55 | Page Frame: 1 |
+Working Set: 3012 | Quanta: 56 | Page Frame: 1 |
+Working Set: 3012 | Quanta: 57 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 58 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 59 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 60 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 61 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 62 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 63 | Page Frame: 1 |
+Working Set: 3012 | Quanta: 64 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 65 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 66 | Page Frame: 1 |
+Working Set: 3012 | Quanta: 67 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 68 | Page Frame: 1 |
+Working Set: 3012 | Quanta: 69 | Page Frame: 1 |
+Working Set: 3012 | Quanta: 70 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 71 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 72 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 73 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 74 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 75 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 76 | Page Frame: 0 |
+Working Set: 3012 | Quanta: 77 | Page Frame: 1 |
+Working Set: 3012 | Quanta: 78 | Page Frame: 1 |
+Working Set: 3012 | Quanta: 79 | Page Frame: 2 |
+Working Set: 3012 | Quanta: 80 | Page Frame: 1 |
+Working Set: 3012 | Quanta: 81 | Page Frame: 2 |
+Working Set: 3012 | Quanta: 82 | Page Frame: 3 |
+Working Set: 3012 | Quanta: 83 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4012 | Quanta: 84 | Page Frame: 4 |
+Working Set: 4012 | Quanta: 85 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3012 | Quanta: 86 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4012 | Quanta: 87 | Page Frame: 4 |
+Working Set: 4012 | Quanta: 88 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 5012 | Quanta: 89 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 6012 | Quanta: 90 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 7012 | Quanta: 91 | Page Frame: 7 |
+Working Set: 7012 | Quanta: 92 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 93 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 94 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 95 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 96 | Page Frame: 1 |
+Working Set: 7012 | Quanta: 97 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 98 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 99 | Page Frame: 0 |
+Working Set: 7012 | Quanta: 100 | Page Frame: 1 |
+
+
+LFU Hit Ratio: 0.87
+
+
+-----------------------------------------------
+
+-----------------------------------------------
+----------------------MFU----------------------
+-----------------------------------------------
+
+-----------------------------------------------
+
+===================Run: 1====================
+
+--------------------------------------------
+Page 0 pages in
+--------------------------------------------
+Working Set: 1nnn | Quanta: 1 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 10nn | Quanta: 2 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 3 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 4 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 5 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 6 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 7 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 8 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 9 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 10 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 11 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 12 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 13 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 14 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 15 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 16 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 17 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 18 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 19 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 20 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 21 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 22 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 23 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 24 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 25 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 26 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 27 | Page Frame: 1 |
+Working Set: 10nn | Quanta: 28 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 29 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 30 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 31 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 32 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 33 | Page Frame: 0 |
+Working Set: 10nn | Quanta: 34 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 102n | Quanta: 35 | Page Frame: 2 |
+Working Set: 102n | Quanta: 36 | Page Frame: 1 |
+Working Set: 102n | Quanta: 37 | Page Frame: 0 |
+Working Set: 102n | Quanta: 38 | Page Frame: 1 |
+Working Set: 102n | Quanta: 39 | Page Frame: 0 |
+Working Set: 102n | Quanta: 40 | Page Frame: 1 |
+Working Set: 102n | Quanta: 41 | Page Frame: 1 |
+Working Set: 102n | Quanta: 42 | Page Frame: 0 |
+Working Set: 102n | Quanta: 43 | Page Frame: 1 |
+Working Set: 102n | Quanta: 44 | Page Frame: 2 |
+Working Set: 102n | Quanta: 45 | Page Frame: 1 |
+Working Set: 102n | Quanta: 46 | Page Frame: 2 |
+Working Set: 102n | Quanta: 47 | Page Frame: 2 |
+Working Set: 102n | Quanta: 48 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 1023 | Quanta: 49 | Page Frame: 3 |
+Working Set: 1023 | Quanta: 50 | Page Frame: 2 |
+Working Set: 1023 | Quanta: 51 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 52 | Page Frame: 2 |
+Working Set: 1023 | Quanta: 53 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 54 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 55 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 56 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 57 | Page Frame: 2 |
+Working Set: 1023 | Quanta: 58 | Page Frame: 3 |
+Working Set: 1023 | Quanta: 59 | Page Frame: 3 |
+Working Set: 1023 | Quanta: 60 | Page Frame: 2 |
+Working Set: 1023 | Quanta: 61 | Page Frame: 3 |
+Working Set: 1023 | Quanta: 62 | Page Frame: 2 |
+Working Set: 1023 | Quanta: 63 | Page Frame: 2 |
+Working Set: 1023 | Quanta: 64 | Page Frame: 3 |
+Working Set: 1023 | Quanta: 65 | Page Frame: 2 |
+Working Set: 1023 | Quanta: 66 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 67 | Page Frame: 2 |
+Working Set: 1023 | Quanta: 68 | Page Frame: 2 |
+Working Set: 1023 | Quanta: 69 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 70 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 71 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 72 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 73 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 74 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 75 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 76 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 77 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 78 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 79 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 80 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 81 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 82 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 83 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 84 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 85 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 86 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 87 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 88 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 89 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 90 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 91 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 92 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 93 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 94 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 95 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 96 | Page Frame: 0 |
+Working Set: 1023 | Quanta: 97 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 98 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 99 | Page Frame: 1 |
+Working Set: 1023 | Quanta: 100 | Page Frame: 0 |
+
+
+MFU Hit Ratio: 0.96
+
+===================Run: 2====================
+
+--------------------------------------------
+Page 0 pages in
+--------------------------------------------
+Working Set: 5nnn | Quanta: 1 | Page Frame: 5 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 52nn | Quanta: 2 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 523n | Quanta: 3 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 5234 | Quanta: 4 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 5 | Page Frame: 3 |
+Working Set: 5234 | Quanta: 6 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 7 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 8 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 6234 | Quanta: 9 | Page Frame: 6 |
+Working Set: 6234 | Quanta: 10 | Page Frame: 6 |
+--------------------------------------------
+Page 5 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 5234 | Quanta: 11 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 12 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 13 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 14 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 15 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 16 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 17 | Page Frame: 3 |
+Working Set: 5234 | Quanta: 18 | Page Frame: 2 |
+Working Set: 5234 | Quanta: 19 | Page Frame: 3 |
+Working Set: 5234 | Quanta: 20 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 21 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 22 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 23 | Page Frame: 5 |
+Working Set: 5234 | Quanta: 24 | Page Frame: 4 |
+Working Set: 5234 | Quanta: 25 | Page Frame: 3 |
+Working Set: 5234 | Quanta: 26 | Page Frame: 2 |
+Working Set: 5234 | Quanta: 27 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 1234 | Quanta: 28 | Page Frame: 1 |
+Working Set: 1234 | Quanta: 29 | Page Frame: 2 |
+Working Set: 1234 | Quanta: 30 | Page Frame: 1 |
+Working Set: 1234 | Quanta: 31 | Page Frame: 2 |
+Working Set: 1234 | Quanta: 32 | Page Frame: 2 |
+Working Set: 1234 | Quanta: 33 | Page Frame: 3 |
+Working Set: 1234 | Quanta: 34 | Page Frame: 3 |
+Working Set: 1234 | Quanta: 35 | Page Frame: 4 |
+Working Set: 1234 | Quanta: 36 | Page Frame: 3 |
+Working Set: 1234 | Quanta: 37 | Page Frame: 3 |
+Working Set: 1234 | Quanta: 38 | Page Frame: 4 |
+Working Set: 1234 | Quanta: 39 | Page Frame: 3 |
+Working Set: 1234 | Quanta: 40 | Page Frame: 4 |
+Working Set: 1234 | Quanta: 41 | Page Frame: 3 |
+Working Set: 1234 | Quanta: 42 | Page Frame: 2 |
+Working Set: 1234 | Quanta: 43 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 1204 | Quanta: 44 | Page Frame: 0 |
+Working Set: 1204 | Quanta: 45 | Page Frame: 0 |
+Working Set: 1204 | Quanta: 46 | Page Frame: 1 |
+Working Set: 1204 | Quanta: 47 | Page Frame: 0 |
+Working Set: 1204 | Quanta: 48 | Page Frame: 0 |
+Working Set: 1204 | Quanta: 49 | Page Frame: 0 |
+Working Set: 1204 | Quanta: 50 | Page Frame: 1 |
+Working Set: 1204 | Quanta: 51 | Page Frame: 2 |
+Working Set: 1204 | Quanta: 52 | Page Frame: 1 |
+Working Set: 1204 | Quanta: 53 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 1304 | Quanta: 54 | Page Frame: 3 |
+Working Set: 1304 | Quanta: 55 | Page Frame: 3 |
+Working Set: 1304 | Quanta: 56 | Page Frame: 3 |
+Working Set: 1304 | Quanta: 57 | Page Frame: 3 |
+Working Set: 1304 | Quanta: 58 | Page Frame: 3 |
+Working Set: 1304 | Quanta: 59 | Page Frame: 4 |
+Working Set: 1304 | Quanta: 60 | Page Frame: 4 |
+Working Set: 1304 | Quanta: 61 | Page Frame: 3 |
+Working Set: 1304 | Quanta: 62 | Page Frame: 4 |
+Working Set: 1304 | Quanta: 63 | Page Frame: 3 |
+Working Set: 1304 | Quanta: 64 | Page Frame: 4 |
+Working Set: 1304 | Quanta: 65 | Page Frame: 3 |
+Working Set: 1304 | Quanta: 66 | Page Frame: 3 |
+Working Set: 1304 | Quanta: 67 | Page Frame: 4 |
+Working Set: 1304 | Quanta: 68 | Page Frame: 4 |
+Working Set: 1304 | Quanta: 69 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 1204 | Quanta: 70 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1203 | Quanta: 71 | Page Frame: 3 |
+Working Set: 1203 | Quanta: 72 | Page Frame: 3 |
+Working Set: 1203 | Quanta: 73 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 1204 | Quanta: 74 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1205 | Quanta: 75 | Page Frame: 5 |
+--------------------------------------------
+Page 4 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 1405 | Quanta: 76 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1305 | Quanta: 77 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 1405 | Quanta: 78 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1305 | Quanta: 79 | Page Frame: 3 |
+Working Set: 1305 | Quanta: 80 | Page Frame: 3 |
+Working Set: 1305 | Quanta: 81 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 1405 | Quanta: 82 | Page Frame: 4 |
+Working Set: 1405 | Quanta: 83 | Page Frame: 4 |
+Working Set: 1405 | Quanta: 84 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1305 | Quanta: 85 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 1405 | Quanta: 86 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1305 | Quanta: 87 | Page Frame: 3 |
+Working Set: 1305 | Quanta: 88 | Page Frame: 3 |
+Working Set: 1305 | Quanta: 89 | Page Frame: 3 |
+Working Set: 1305 | Quanta: 90 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 1205 | Quanta: 91 | Page Frame: 2 |
+Working Set: 1205 | Quanta: 92 | Page Frame: 1 |
+Working Set: 1205 | Quanta: 93 | Page Frame: 1 |
+Working Set: 1205 | Quanta: 94 | Page Frame: 0 |
+Working Set: 1205 | Quanta: 95 | Page Frame: 0 |
+Working Set: 1205 | Quanta: 96 | Page Frame: 0 |
+Working Set: 1205 | Quanta: 97 | Page Frame: 0 |
+Working Set: 1205 | Quanta: 98 | Page Frame: 1 |
+Working Set: 1205 | Quanta: 99 | Page Frame: 0 |
+Working Set: 1205 | Quanta: 100 | Page Frame: 0 |
+
+
+MFU Hit Ratio: 0.78
+
+===================Run: 3====================
+
+--------------------------------------------
+Page 0 pages in
+--------------------------------------------
+Working Set: 8nnn | Quanta: 1 | Page Frame: 8 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 83nn | Quanta: 2 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 832n | Quanta: 3 | Page Frame: 2 |
+Working Set: 832n | Quanta: 4 | Page Frame: 2 |
+Working Set: 832n | Quanta: 5 | Page Frame: 3 |
+Working Set: 832n | Quanta: 6 | Page Frame: 3 |
+Working Set: 832n | Quanta: 7 | Page Frame: 2 |
+Working Set: 832n | Quanta: 8 | Page Frame: 2 |
+Working Set: 832n | Quanta: 9 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 8324 | Quanta: 10 | Page Frame: 4 |
+Working Set: 8324 | Quanta: 11 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 8524 | Quanta: 12 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 8564 | Quanta: 13 | Page Frame: 6 |
+Working Set: 8564 | Quanta: 14 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 8574 | Quanta: 15 | Page Frame: 7 |
+--------------------------------------------
+Page 9 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 8579 | Quanta: 16 | Page Frame: 9 |
+--------------------------------------------
+Page 0 pages in / Page 8 evicted.
+--------------------------------------------
+Working Set: 0579 | Quanta: 17 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1579 | Quanta: 18 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 0579 | Quanta: 19 | Page Frame: 0 |
+Working Set: 0579 | Quanta: 20 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1579 | Quanta: 21 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 0579 | Quanta: 22 | Page Frame: 0 |
+Working Set: 0579 | Quanta: 23 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1579 | Quanta: 24 | Page Frame: 1 |
+Working Set: 1579 | Quanta: 25 | Page Frame: 1 |
+Working Set: 1579 | Quanta: 26 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 0579 | Quanta: 27 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1579 | Quanta: 28 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 0579 | Quanta: 29 | Page Frame: 0 |
+Working Set: 0579 | Quanta: 30 | Page Frame: 0 |
+Working Set: 0579 | Quanta: 31 | Page Frame: 0 |
+Working Set: 0579 | Quanta: 32 | Page Frame: 0 |
+Working Set: 0579 | Quanta: 33 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1579 | Quanta: 34 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 2579 | Quanta: 35 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 1579 | Quanta: 36 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 2579 | Quanta: 37 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 38 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4579 | Quanta: 39 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 40 | Page Frame: 3 |
+Working Set: 3579 | Quanta: 41 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 2579 | Quanta: 42 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 43 | Page Frame: 3 |
+Working Set: 3579 | Quanta: 44 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4579 | Quanta: 45 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 46 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4579 | Quanta: 47 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 48 | Page Frame: 3 |
+Working Set: 3579 | Quanta: 49 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4579 | Quanta: 50 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 51 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4579 | Quanta: 52 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 53 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 2579 | Quanta: 54 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 1579 | Quanta: 55 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 2579 | Quanta: 56 | Page Frame: 2 |
+Working Set: 2579 | Quanta: 57 | Page Frame: 2 |
+Working Set: 2579 | Quanta: 58 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 59 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 2579 | Quanta: 60 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 1579 | Quanta: 61 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 0579 | Quanta: 62 | Page Frame: 0 |
+Working Set: 0579 | Quanta: 63 | Page Frame: 0 |
+Working Set: 0579 | Quanta: 64 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1579 | Quanta: 65 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 0579 | Quanta: 66 | Page Frame: 0 |
+Working Set: 0579 | Quanta: 67 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1579 | Quanta: 68 | Page Frame: 1 |
+Working Set: 1579 | Quanta: 69 | Page Frame: 1 |
+Working Set: 1579 | Quanta: 70 | Page Frame: 1 |
+Working Set: 1579 | Quanta: 71 | Page Frame: 1 |
+Working Set: 1579 | Quanta: 72 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 2579 | Quanta: 73 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 74 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4579 | Quanta: 75 | Page Frame: 4 |
+Working Set: 4579 | Quanta: 76 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 6579 | Quanta: 77 | Page Frame: 6 |
+Working Set: 6579 | Quanta: 78 | Page Frame: 5 |
+--------------------------------------------
+Page 4 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 4579 | Quanta: 79 | Page Frame: 4 |
+Working Set: 4579 | Quanta: 80 | Page Frame: 4 |
+Working Set: 4579 | Quanta: 81 | Page Frame: 4 |
+Working Set: 4579 | Quanta: 82 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 83 | Page Frame: 3 |
+Working Set: 3579 | Quanta: 84 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 2579 | Quanta: 85 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 1579 | Quanta: 86 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 2579 | Quanta: 87 | Page Frame: 2 |
+Working Set: 2579 | Quanta: 88 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 89 | Page Frame: 3 |
+Working Set: 3579 | Quanta: 90 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4579 | Quanta: 91 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 92 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4579 | Quanta: 93 | Page Frame: 4 |
+Working Set: 4579 | Quanta: 94 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 95 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 2579 | Quanta: 96 | Page Frame: 2 |
+Working Set: 2579 | Quanta: 97 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 98 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 2579 | Quanta: 99 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3579 | Quanta: 100 | Page Frame: 3 |
+
+
+MFU Hit Ratio: 0.38
+
+===================Run: 4====================
+
+--------------------------------------------
+Page 3 pages in
+--------------------------------------------
+Working Set: 0nnn | Quanta: 1 | Page Frame: 0 |
+--------------------------------------------
+Page 4 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 04nn | Quanta: 2 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 043n | Quanta: 3 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 0432 | Quanta: 4 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1432 | Quanta: 5 | Page Frame: 1 |
+Working Set: 1432 | Quanta: 6 | Page Frame: 2 |
+Working Set: 1432 | Quanta: 7 | Page Frame: 3 |
+Working Set: 1432 | Quanta: 8 | Page Frame: 3 |
+Working Set: 1432 | Quanta: 9 | Page Frame: 4 |
+Working Set: 1432 | Quanta: 10 | Page Frame: 3 |
+Working Set: 1432 | Quanta: 11 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 1452 | Quanta: 12 | Page Frame: 5 |
+Working Set: 1452 | Quanta: 13 | Page Frame: 5 |
+Working Set: 1452 | Quanta: 14 | Page Frame: 5 |
+Working Set: 1452 | Quanta: 15 | Page Frame: 4 |
+Working Set: 1452 | Quanta: 16 | Page Frame: 5 |
+Working Set: 1452 | Quanta: 17 | Page Frame: 5 |
+Working Set: 1452 | Quanta: 18 | Page Frame: 5 |
+Working Set: 1452 | Quanta: 19 | Page Frame: 4 |
+Working Set: 1452 | Quanta: 20 | Page Frame: 4 |
+Working Set: 1452 | Quanta: 21 | Page Frame: 5 |
+Working Set: 1452 | Quanta: 22 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1352 | Quanta: 23 | Page Frame: 3 |
+Working Set: 1352 | Quanta: 24 | Page Frame: 3 |
+Working Set: 1352 | Quanta: 25 | Page Frame: 2 |
+Working Set: 1352 | Quanta: 26 | Page Frame: 2 |
+Working Set: 1352 | Quanta: 27 | Page Frame: 3 |
+Working Set: 1352 | Quanta: 28 | Page Frame: 3 |
+Working Set: 1352 | Quanta: 29 | Page Frame: 3 |
+Working Set: 1352 | Quanta: 30 | Page Frame: 2 |
+Working Set: 1352 | Quanta: 31 | Page Frame: 1 |
+Working Set: 1352 | Quanta: 32 | Page Frame: 2 |
+Working Set: 1352 | Quanta: 33 | Page Frame: 2 |
+Working Set: 1352 | Quanta: 34 | Page Frame: 2 |
+Working Set: 1352 | Quanta: 35 | Page Frame: 3 |
+Working Set: 1352 | Quanta: 36 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 1452 | Quanta: 37 | Page Frame: 4 |
+Working Set: 1452 | Quanta: 38 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 1652 | Quanta: 39 | Page Frame: 6 |
+--------------------------------------------
+Page 7 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 1672 | Quanta: 40 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 1670 | Quanta: 41 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 42 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 43 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 44 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 45 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 46 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 47 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 48 | Page Frame: 1 |
+Working Set: 1670 | Quanta: 49 | Page Frame: 1 |
+Working Set: 1670 | Quanta: 50 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 51 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 52 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 53 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 54 | Page Frame: 1 |
+Working Set: 1670 | Quanta: 55 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 56 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 57 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 58 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 59 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 60 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 61 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1672 | Quanta: 62 | Page Frame: 2 |
+Working Set: 1672 | Quanta: 63 | Page Frame: 2 |
+Working Set: 1672 | Quanta: 64 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 1670 | Quanta: 65 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 66 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 67 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 68 | Page Frame: 1 |
+Working Set: 1670 | Quanta: 69 | Page Frame: 1 |
+Working Set: 1670 | Quanta: 70 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 71 | Page Frame: 0 |
+Working Set: 1670 | Quanta: 72 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1672 | Quanta: 73 | Page Frame: 2 |
+Working Set: 1672 | Quanta: 74 | Page Frame: 1 |
+Working Set: 1672 | Quanta: 75 | Page Frame: 1 |
+Working Set: 1672 | Quanta: 76 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 3672 | Quanta: 77 | Page Frame: 3 |
+Working Set: 3672 | Quanta: 78 | Page Frame: 2 |
+Working Set: 3672 | Quanta: 79 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3671 | Quanta: 80 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 3672 | Quanta: 81 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3671 | Quanta: 82 | Page Frame: 1 |
+Working Set: 3671 | Quanta: 83 | Page Frame: 1 |
+Working Set: 3671 | Quanta: 84 | Page Frame: 1 |
+Working Set: 3671 | Quanta: 85 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 3670 | Quanta: 86 | Page Frame: 0 |
+Working Set: 3670 | Quanta: 87 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 3671 | Quanta: 88 | Page Frame: 1 |
+Working Set: 3671 | Quanta: 89 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 3672 | Quanta: 90 | Page Frame: 2 |
+Working Set: 3672 | Quanta: 91 | Page Frame: 2 |
+Working Set: 3672 | Quanta: 92 | Page Frame: 3 |
+Working Set: 3672 | Quanta: 93 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3674 | Quanta: 94 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 5674 | Quanta: 95 | Page Frame: 5 |
+Working Set: 5674 | Quanta: 96 | Page Frame: 4 |
+Working Set: 5674 | Quanta: 97 | Page Frame: 5 |
+Working Set: 5674 | Quanta: 98 | Page Frame: 4 |
+Working Set: 5674 | Quanta: 99 | Page Frame: 4 |
+Working Set: 5674 | Quanta: 100 | Page Frame: 4 |
+
+
+MFU Hit Ratio: 0.77
+
+===================Run: 5====================
+
+--------------------------------------------
+Page 4 pages in
+--------------------------------------------
+Working Set: 9nnn | Quanta: 1 | Page Frame: 9 |
+--------------------------------------------
+Page 7 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 97nn | Quanta: 2 | Page Frame: 7 |
+Working Set: 97nn | Quanta: 3 | Page Frame: 9 |
+--------------------------------------------
+Page 0 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 970n | Quanta: 4 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 9701 | Quanta: 5 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 9 evicted.
+--------------------------------------------
+Working Set: 2701 | Quanta: 6 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3701 | Quanta: 7 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4701 | Quanta: 8 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 5701 | Quanta: 9 | Page Frame: 5 |
+--------------------------------------------
+Page 4 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 4701 | Quanta: 10 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 5701 | Quanta: 11 | Page Frame: 5 |
+--------------------------------------------
+Page 4 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 4701 | Quanta: 12 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3701 | Quanta: 13 | Page Frame: 3 |
+Working Set: 3701 | Quanta: 14 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4701 | Quanta: 15 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 5701 | Quanta: 16 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 6701 | Quanta: 17 | Page Frame: 6 |
+--------------------------------------------
+Page 5 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 5701 | Quanta: 18 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 6701 | Quanta: 19 | Page Frame: 6 |
+--------------------------------------------
+Page 5 pages in / Page 6 evicted.
+--------------------------------------------
+Working Set: 5701 | Quanta: 20 | Page Frame: 5 |
+Working Set: 5701 | Quanta: 21 | Page Frame: 5 |
+Working Set: 5701 | Quanta: 22 | Page Frame: 5 |
+--------------------------------------------
+Page 6 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 6701 | Quanta: 23 | Page Frame: 6 |
+Working Set: 6701 | Quanta: 24 | Page Frame: 7 |
+Working Set: 6701 | Quanta: 25 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 26 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 27 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 28 | Page Frame: 1 |
+Working Set: 6701 | Quanta: 29 | Page Frame: 1 |
+Working Set: 6701 | Quanta: 30 | Page Frame: 1 |
+Working Set: 6701 | Quanta: 31 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 32 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 33 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 34 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 35 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 36 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 37 | Page Frame: 1 |
+Working Set: 6701 | Quanta: 38 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 39 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 40 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 41 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 42 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 43 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 44 | Page Frame: 1 |
+Working Set: 6701 | Quanta: 45 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 46 | Page Frame: 1 |
+Working Set: 6701 | Quanta: 47 | Page Frame: 1 |
+Working Set: 6701 | Quanta: 48 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 49 | Page Frame: 1 |
+Working Set: 6701 | Quanta: 50 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 51 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 52 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 53 | Page Frame: 1 |
+Working Set: 6701 | Quanta: 54 | Page Frame: 1 |
+Working Set: 6701 | Quanta: 55 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 56 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 57 | Page Frame: 0 |
+Working Set: 6701 | Quanta: 58 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 6721 | Quanta: 59 | Page Frame: 2 |
+Working Set: 6721 | Quanta: 60 | Page Frame: 1 |
+Working Set: 6721 | Quanta: 61 | Page Frame: 1 |
+Working Set: 6721 | Quanta: 62 | Page Frame: 1 |
+Working Set: 6721 | Quanta: 63 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 6720 | Quanta: 64 | Page Frame: 0 |
+Working Set: 6720 | Quanta: 65 | Page Frame: 0 |
+Working Set: 6720 | Quanta: 66 | Page Frame: 0 |
+Working Set: 6720 | Quanta: 67 | Page Frame: 0 |
+Working Set: 6720 | Quanta: 68 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 6721 | Quanta: 69 | Page Frame: 1 |
+Working Set: 6721 | Quanta: 70 | Page Frame: 2 |
+Working Set: 6721 | Quanta: 71 | Page Frame: 2 |
+Working Set: 6721 | Quanta: 72 | Page Frame: 2 |
+Working Set: 6721 | Quanta: 73 | Page Frame: 2 |
+Working Set: 6721 | Quanta: 74 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 6723 | Quanta: 75 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 6743 | Quanta: 76 | Page Frame: 4 |
+Working Set: 6743 | Quanta: 77 | Page Frame: 3 |
+Working Set: 6743 | Quanta: 78 | Page Frame: 4 |
+Working Set: 6743 | Quanta: 79 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page 4 evicted.
+--------------------------------------------
+Working Set: 6753 | Quanta: 80 | Page Frame: 5 |
+Working Set: 6753 | Quanta: 81 | Page Frame: 6 |
+Working Set: 6753 | Quanta: 82 | Page Frame: 7 |
+--------------------------------------------
+Page 0 pages in / Page 5 evicted.
+--------------------------------------------
+Working Set: 6703 | Quanta: 83 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 6713 | Quanta: 84 | Page Frame: 1 |
+Working Set: 6713 | Quanta: 85 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 6703 | Quanta: 86 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 6713 | Quanta: 87 | Page Frame: 1 |
+Working Set: 6713 | Quanta: 88 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 6723 | Quanta: 89 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 6713 | Quanta: 90 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 6703 | Quanta: 91 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 6713 | Quanta: 92 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 6723 | Quanta: 93 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page 2 evicted.
+--------------------------------------------
+Working Set: 6713 | Quanta: 94 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 6703 | Quanta: 95 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page 0 evicted.
+--------------------------------------------
+Working Set: 6713 | Quanta: 96 | Page Frame: 1 |
+Working Set: 6713 | Quanta: 97 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page 1 evicted.
+--------------------------------------------
+Working Set: 6703 | Quanta: 98 | Page Frame: 0 |
+Working Set: 6703 | Quanta: 99 | Page Frame: 0 |
+Working Set: 6703 | Quanta: 100 | Page Frame: 0 |
+
+
+MFU Hit Ratio: 0.62
+
+
+-----------------------------------------------
+
+-----------------------------------------------
+-----------------Random-Pick--------------------
+-----------------------------------------------
+
+-----------------------------------------------
+
+===================Run: 1====================
+
+--------------------------------------------
+Page 0 pages in
+--------------------------------------------
+Working Set: 6nnn | Quanta: 1 | Page Frame: 6 |
+--------------------------------------------
+Page 0 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 60nn | Quanta: 2 | Page Frame: 0 |
+--------------------------------------------
+Page 1 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 601n | Quanta: 3 | Page Frame: 1 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 6012 | Quanta: 4 | Page Frame: 2 |
+Working Set: 6012 | Quanta: 5 | Page Frame: 2 |
+Working Set: 6012 | Quanta: 6 | Page Frame: 2 |
+Working Set: 6012 | Quanta: 7 | Page Frame: 2 |
+Working Set: 6012 | Quanta: 8 | Page Frame: 2 |
+Working Set: 6012 | Quanta: 9 | Page Frame: 2 |
+Working Set: 6012 | Quanta: 10 | Page Frame: 2 |
+Working Set: 6012 | Quanta: 11 | Page Frame: 2 |
+--------------------------------------------
+Page 3 paged in / Page 2 evicted.
+--------------------------------------------
+Working Set: 6013 | Quanta: 12 | Page Frame: 3 |
+--------------------------------------------
+Page 2 paged in / Page 1 evicted.
+--------------------------------------------
+Working Set: 6023 | Quanta: 13 | Page Frame: 2 |
+Working Set: 6023 | Quanta: 14 | Page Frame: 3 |
+Working Set: 6023 | Quanta: 15 | Page Frame: 2 |
+Working Set: 6023 | Quanta: 16 | Page Frame: 3 |
+Working Set: 6023 | Quanta: 17 | Page Frame: 3 |
+Working Set: 6023 | Quanta: 18 | Page Frame: 2 |
+Working Set: 6023 | Quanta: 19 | Page Frame: 2 |
+--------------------------------------------
+Page 1 paged in / Page 3 evicted.
+--------------------------------------------
+Working Set: 6021 | Quanta: 20 | Page Frame: 1 |
+Working Set: 6021 | Quanta: 21 | Page Frame: 2 |
+Working Set: 6021 | Quanta: 22 | Page Frame: 2 |
+--------------------------------------------
+Page 3 paged in / Page 1 evicted.
+--------------------------------------------
+Working Set: 6023 | Quanta: 23 | Page Frame: 3 |
+--------------------------------------------
+Page 4 paged in / Page 0 evicted.
+--------------------------------------------
+Working Set: 6423 | Quanta: 24 | Page Frame: 4 |
+Working Set: 6423 | Quanta: 25 | Page Frame: 4 |
+Working Set: 6423 | Quanta: 26 | Page Frame: 3 |
+Working Set: 6423 | Quanta: 27 | Page Frame: 2 |
+--------------------------------------------
+Page 1 paged in / Page 2 evicted.
+--------------------------------------------
+Working Set: 6413 | Quanta: 28 | Page Frame: 1 |
+Working Set: 6413 | Quanta: 29 | Page Frame: 1 |
+--------------------------------------------
+Page 0 paged in / Page 3 evicted.
+--------------------------------------------
+Working Set: 6410 | Quanta: 30 | Page Frame: 0 |
+Working Set: 6410 | Quanta: 31 | Page Frame: 0 |
+Working Set: 6410 | Quanta: 32 | Page Frame: 0 |
+Working Set: 6410 | Quanta: 33 | Page Frame: 1 |
+Working Set: 6410 | Quanta: 34 | Page Frame: 1 |
+--------------------------------------------
+Page 2 paged in / Page 6 evicted.
+--------------------------------------------
+Working Set: 2410 | Quanta: 35 | Page Frame: 2 |
+Working Set: 2410 | Quanta: 36 | Page Frame: 1 |
+Working Set: 2410 | Quanta: 37 | Page Frame: 1 |
+Working Set: 2410 | Quanta: 38 | Page Frame: 0 |
+Working Set: 2410 | Quanta: 39 | Page Frame: 0 |
+Working Set: 2410 | Quanta: 40 | Page Frame: 1 |
+Working Set: 2410 | Quanta: 41 | Page Frame: 1 |
+Working Set: 2410 | Quanta: 42 | Page Frame: 2 |
+Working Set: 2410 | Quanta: 43 | Page Frame: 2 |
+Working Set: 2410 | Quanta: 44 | Page Frame: 2 |
+Working Set: 2410 | Quanta: 45 | Page Frame: 2 |
+Working Set: 2410 | Quanta: 46 | Page Frame: 2 |
+Working Set: 2410 | Quanta: 47 | Page Frame: 1 |
+Working Set: 2410 | Quanta: 48 | Page Frame: 2 |
+Working Set: 2410 | Quanta: 49 | Page Frame: 2 |
+Working Set: 2410 | Quanta: 50 | Page Frame: 1 |
+Working Set: 2410 | Quanta: 51 | Page Frame: 1 |
+Working Set: 2410 | Quanta: 52 | Page Frame: 0 |
+Working Set: 2410 | Quanta: 53 | Page Frame: 0 |
+Working Set: 2410 | Quanta: 54 | Page Frame: 0 |
+Working Set: 2410 | Quanta: 55 | Page Frame: 1 |
+Working Set: 2410 | Quanta: 56 | Page Frame: 0 |
+Working Set: 2410 | Quanta: 57 | Page Frame: 1 |
+Working Set: 2410 | Quanta: 58 | Page Frame: 2 |
+Working Set: 2410 | Quanta: 59 | Page Frame: 2 |
+Working Set: 2410 | Quanta: 60 | Page Frame: 2 |
+--------------------------------------------
+Page 3 paged in / Page 1 evicted.
+--------------------------------------------
+Working Set: 2430 | Quanta: 61 | Page Frame: 3 |
+Working Set: 2430 | Quanta: 62 | Page Frame: 3 |
+Working Set: 2430 | Quanta: 63 | Page Frame: 4 |
+Working Set: 2430 | Quanta: 64 | Page Frame: 4 |
+--------------------------------------------
+Page 5 paged in / Page 0 evicted.
+--------------------------------------------
+Working Set: 2435 | Quanta: 65 | Page Frame: 5 |
+Working Set: 2435 | Quanta: 66 | Page Frame: 4 |
+Working Set: 2435 | Quanta: 67 | Page Frame: 4 |
+Working Set: 2435 | Quanta: 68 | Page Frame: 4 |
+Working Set: 2435 | Quanta: 69 | Page Frame: 5 |
+--------------------------------------------
+Page 6 paged in / Page 2 evicted.
+--------------------------------------------
+Working Set: 6435 | Quanta: 70 | Page Frame: 6 |
+Working Set: 6435 | Quanta: 71 | Page Frame: 6 |
+Working Set: 6435 | Quanta: 72 | Page Frame: 5 |
+Working Set: 6435 | Quanta: 73 | Page Frame: 6 |
+Working Set: 6435 | Quanta: 74 | Page Frame: 5 |
+Working Set: 6435 | Quanta: 75 | Page Frame: 4 |
+Working Set: 6435 | Quanta: 76 | Page Frame: 3 |
+Working Set: 6435 | Quanta: 77 | Page Frame: 4 |
+Working Set: 6435 | Quanta: 78 | Page Frame: 4 |
+Working Set: 6435 | Quanta: 79 | Page Frame: 4 |
+Working Set: 6435 | Quanta: 80 | Page Frame: 3 |
+--------------------------------------------
+Page 2 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 6235 | Quanta: 81 | Page Frame: 2 |
+Working Set: 6235 | Quanta: 82 | Page Frame: 3 |
+--------------------------------------------
+Page 4 paged in / Page 5 evicted.
+--------------------------------------------
+Working Set: 6234 | Quanta: 83 | Page Frame: 4 |
+--------------------------------------------
+Page 5 paged in / Page 6 evicted.
+--------------------------------------------
+Working Set: 5234 | Quanta: 84 | Page Frame: 5 |
+--------------------------------------------
+Page 6 paged in / Page 2 evicted.
+--------------------------------------------
+Working Set: 5634 | Quanta: 85 | Page Frame: 6 |
+--------------------------------------------
+Page 7 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 5637 | Quanta: 86 | Page Frame: 7 |
+--------------------------------------------
+Page 0 paged in / Page 5 evicted.
+--------------------------------------------
+Working Set: 0637 | Quanta: 87 | Page Frame: 0 |
+Working Set: 0637 | Quanta: 88 | Page Frame: 0 |
+Working Set: 0637 | Quanta: 89 | Page Frame: 0 |
+--------------------------------------------
+Page 1 paged in / Page 0 evicted.
+--------------------------------------------
+Working Set: 1637 | Quanta: 90 | Page Frame: 1 |
+--------------------------------------------
+Page 0 paged in / Page 7 evicted.
+--------------------------------------------
+Working Set: 1630 | Quanta: 91 | Page Frame: 0 |
+Working Set: 1630 | Quanta: 92 | Page Frame: 0 |
+Working Set: 1630 | Quanta: 93 | Page Frame: 1 |
+Working Set: 1630 | Quanta: 94 | Page Frame: 1 |
+Working Set: 1630 | Quanta: 95 | Page Frame: 1 |
+Working Set: 1630 | Quanta: 96 | Page Frame: 0 |
+Working Set: 1630 | Quanta: 97 | Page Frame: 0 |
+Working Set: 1630 | Quanta: 98 | Page Frame: 0 |
+Working Set: 1630 | Quanta: 99 | Page Frame: 1 |
+Working Set: 1630 | Quanta: 100 | Page Frame: 0 |
+
+
+Random Pick Hit Ratio: 0.77
+
+===================Run: 2====================
+
+--------------------------------------------
+Page 0 pages in
+--------------------------------------------
+Working Set: 4nnn | Quanta: 1 | Page Frame: 4 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 42nn | Quanta: 2 | Page Frame: 2 |
+Working Set: 42nn | Quanta: 3 | Page Frame: 2 |
+Working Set: 42nn | Quanta: 4 | Page Frame: 2 |
+Working Set: 42nn | Quanta: 5 | Page Frame: 2 |
+Working Set: 42nn | Quanta: 6 | Page Frame: 2 |
+--------------------------------------------
+Page 1 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 421n | Quanta: 7 | Page Frame: 1 |
+--------------------------------------------
+Page 0 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 4210 | Quanta: 8 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 9 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 10 | Page Frame: 1 |
+Working Set: 4210 | Quanta: 11 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 12 | Page Frame: 1 |
+Working Set: 4210 | Quanta: 13 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 14 | Page Frame: 1 |
+Working Set: 4210 | Quanta: 15 | Page Frame: 1 |
+Working Set: 4210 | Quanta: 16 | Page Frame: 1 |
+Working Set: 4210 | Quanta: 17 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 18 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 19 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 20 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 21 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 22 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 23 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 24 | Page Frame: 0 |
+Working Set: 4210 | Quanta: 25 | Page Frame: 1 |
+Working Set: 4210 | Quanta: 26 | Page Frame: 2 |
+--------------------------------------------
+Page 3 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 3210 | Quanta: 27 | Page Frame: 3 |
+--------------------------------------------
+Page 4 paged in / Page 2 evicted.
+--------------------------------------------
+Working Set: 3410 | Quanta: 28 | Page Frame: 4 |
+Working Set: 3410 | Quanta: 29 | Page Frame: 3 |
+Working Set: 3410 | Quanta: 30 | Page Frame: 4 |
+--------------------------------------------
+Page 5 paged in / Page 3 evicted.
+--------------------------------------------
+Working Set: 5410 | Quanta: 31 | Page Frame: 5 |
+--------------------------------------------
+Page 6 paged in / Page 5 evicted.
+--------------------------------------------
+Working Set: 6410 | Quanta: 32 | Page Frame: 6 |
+--------------------------------------------
+Page 5 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 6510 | Quanta: 33 | Page Frame: 5 |
+--------------------------------------------
+Page 4 paged in / Page 6 evicted.
+--------------------------------------------
+Working Set: 4510 | Quanta: 34 | Page Frame: 4 |
+Working Set: 4510 | Quanta: 35 | Page Frame: 5 |
+--------------------------------------------
+Page 6 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 6510 | Quanta: 36 | Page Frame: 6 |
+--------------------------------------------
+Page 7 paged in / Page 0 evicted.
+--------------------------------------------
+Working Set: 6517 | Quanta: 37 | Page Frame: 7 |
+--------------------------------------------
+Page 0 paged in / Page 6 evicted.
+--------------------------------------------
+Working Set: 0517 | Quanta: 38 | Page Frame: 0 |
+Working Set: 0517 | Quanta: 39 | Page Frame: 0 |
+Working Set: 0517 | Quanta: 40 | Page Frame: 1 |
+Working Set: 0517 | Quanta: 41 | Page Frame: 1 |
+Working Set: 0517 | Quanta: 42 | Page Frame: 0 |
+Working Set: 0517 | Quanta: 43 | Page Frame: 0 |
+Working Set: 0517 | Quanta: 44 | Page Frame: 1 |
+--------------------------------------------
+Page 2 paged in / Page 7 evicted.
+--------------------------------------------
+Working Set: 0512 | Quanta: 45 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 46 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 47 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 48 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 49 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 50 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 51 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 52 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 53 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 54 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 55 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 56 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 57 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 58 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 59 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 60 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 61 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 62 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 63 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 64 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 65 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 66 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 67 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 68 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 69 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 70 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 71 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 72 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 73 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 74 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 75 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 76 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 77 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 78 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 79 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 80 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 81 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 82 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 83 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 84 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 85 | Page Frame: 2 |
+Working Set: 0512 | Quanta: 86 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 87 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 88 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 89 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 90 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 91 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 92 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 93 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 94 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 95 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 96 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 97 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 98 | Page Frame: 0 |
+Working Set: 0512 | Quanta: 99 | Page Frame: 1 |
+Working Set: 0512 | Quanta: 100 | Page Frame: 2 |
+
+
+Random Pick Hit Ratio: 0.82
+
+===================Run: 3====================
+
+--------------------------------------------
+Page 2 pages in
+--------------------------------------------
+Working Set: 0nnn | Quanta: 1 | Page Frame: 0 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 02nn | Quanta: 2 | Page Frame: 2 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 023n | Quanta: 3 | Page Frame: 3 |
+Working Set: 023n | Quanta: 4 | Page Frame: 2 |
+Working Set: 023n | Quanta: 5 | Page Frame: 3 |
+Working Set: 023n | Quanta: 6 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 0234 | Quanta: 7 | Page Frame: 4 |
+Working Set: 0234 | Quanta: 8 | Page Frame: 4 |
+Working Set: 0234 | Quanta: 9 | Page Frame: 4 |
+Working Set: 0234 | Quanta: 10 | Page Frame: 4 |
+Working Set: 0234 | Quanta: 11 | Page Frame: 3 |
+Working Set: 0234 | Quanta: 12 | Page Frame: 3 |
+Working Set: 0234 | Quanta: 13 | Page Frame: 3 |
+Working Set: 0234 | Quanta: 14 | Page Frame: 4 |
+Working Set: 0234 | Quanta: 15 | Page Frame: 4 |
+Working Set: 0234 | Quanta: 16 | Page Frame: 4 |
+Working Set: 0234 | Quanta: 17 | Page Frame: 3 |
+Working Set: 0234 | Quanta: 18 | Page Frame: 3 |
+Working Set: 0234 | Quanta: 19 | Page Frame: 3 |
+Working Set: 0234 | Quanta: 20 | Page Frame: 4 |
+Working Set: 0234 | Quanta: 21 | Page Frame: 3 |
+Working Set: 0234 | Quanta: 22 | Page Frame: 2 |
+--------------------------------------------
+Page 1 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 0231 | Quanta: 23 | Page Frame: 1 |
+Working Set: 0231 | Quanta: 24 | Page Frame: 1 |
+Working Set: 0231 | Quanta: 25 | Page Frame: 1 |
+Working Set: 0231 | Quanta: 26 | Page Frame: 1 |
+Working Set: 0231 | Quanta: 27 | Page Frame: 0 |
+Working Set: 0231 | Quanta: 28 | Page Frame: 0 |
+Working Set: 0231 | Quanta: 29 | Page Frame: 1 |
+Working Set: 0231 | Quanta: 30 | Page Frame: 0 |
+Working Set: 0231 | Quanta: 31 | Page Frame: 0 |
+Working Set: 0231 | Quanta: 32 | Page Frame: 0 |
+Working Set: 0231 | Quanta: 33 | Page Frame: 1 |
+Working Set: 0231 | Quanta: 34 | Page Frame: 0 |
+Working Set: 0231 | Quanta: 35 | Page Frame: 0 |
+Working Set: 0231 | Quanta: 36 | Page Frame: 1 |
+Working Set: 0231 | Quanta: 37 | Page Frame: 1 |
+Working Set: 0231 | Quanta: 38 | Page Frame: 2 |
+Working Set: 0231 | Quanta: 39 | Page Frame: 1 |
+Working Set: 0231 | Quanta: 40 | Page Frame: 2 |
+Working Set: 0231 | Quanta: 41 | Page Frame: 2 |
+Working Set: 0231 | Quanta: 42 | Page Frame: 1 |
+Working Set: 0231 | Quanta: 43 | Page Frame: 1 |
+Working Set: 0231 | Quanta: 44 | Page Frame: 2 |
+Working Set: 0231 | Quanta: 45 | Page Frame: 3 |
+--------------------------------------------
+Page 4 paged in / Page 1 evicted.
+--------------------------------------------
+Working Set: 0234 | Quanta: 46 | Page Frame: 4 |
+--------------------------------------------
+Page 5 paged in / Page 2 evicted.
+--------------------------------------------
+Working Set: 0534 | Quanta: 47 | Page Frame: 5 |
+--------------------------------------------
+Page 6 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 0536 | Quanta: 48 | Page Frame: 6 |
+--------------------------------------------
+Page 7 paged in / Page 5 evicted.
+--------------------------------------------
+Working Set: 0736 | Quanta: 49 | Page Frame: 7 |
+Working Set: 0736 | Quanta: 50 | Page Frame: 0 |
+Working Set: 0736 | Quanta: 51 | Page Frame: 0 |
+Working Set: 0736 | Quanta: 52 | Page Frame: 0 |
+Working Set: 0736 | Quanta: 53 | Page Frame: 0 |
+--------------------------------------------
+Page 1 paged in / Page 3 evicted.
+--------------------------------------------
+Working Set: 0716 | Quanta: 54 | Page Frame: 1 |
+--------------------------------------------
+Page 2 paged in / Page 7 evicted.
+--------------------------------------------
+Working Set: 0216 | Quanta: 55 | Page Frame: 2 |
+Working Set: 0216 | Quanta: 56 | Page Frame: 2 |
+Working Set: 0216 | Quanta: 57 | Page Frame: 2 |
+Working Set: 0216 | Quanta: 58 | Page Frame: 1 |
+Working Set: 0216 | Quanta: 59 | Page Frame: 2 |
+--------------------------------------------
+Page 3 paged in / Page 6 evicted.
+--------------------------------------------
+Working Set: 0213 | Quanta: 60 | Page Frame: 3 |
+Working Set: 0213 | Quanta: 61 | Page Frame: 3 |
+Working Set: 0213 | Quanta: 62 | Page Frame: 3 |
+Working Set: 0213 | Quanta: 63 | Page Frame: 2 |
+Working Set: 0213 | Quanta: 64 | Page Frame: 1 |
+Working Set: 0213 | Quanta: 65 | Page Frame: 1 |
+Working Set: 0213 | Quanta: 66 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 67 | Page Frame: 1 |
+Working Set: 0213 | Quanta: 68 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 69 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 70 | Page Frame: 1 |
+Working Set: 0213 | Quanta: 71 | Page Frame: 2 |
+Working Set: 0213 | Quanta: 72 | Page Frame: 1 |
+Working Set: 0213 | Quanta: 73 | Page Frame: 1 |
+Working Set: 0213 | Quanta: 74 | Page Frame: 2 |
+Working Set: 0213 | Quanta: 75 | Page Frame: 1 |
+Working Set: 0213 | Quanta: 76 | Page Frame: 2 |
+Working Set: 0213 | Quanta: 77 | Page Frame: 2 |
+Working Set: 0213 | Quanta: 78 | Page Frame: 3 |
+Working Set: 0213 | Quanta: 79 | Page Frame: 3 |
+Working Set: 0213 | Quanta: 80 | Page Frame: 3 |
+Working Set: 0213 | Quanta: 81 | Page Frame: 2 |
+Working Set: 0213 | Quanta: 82 | Page Frame: 1 |
+Working Set: 0213 | Quanta: 83 | Page Frame: 2 |
+Working Set: 0213 | Quanta: 84 | Page Frame: 1 |
+Working Set: 0213 | Quanta: 85 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 86 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 87 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 88 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 89 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 90 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 91 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 92 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 93 | Page Frame: 0 |
+Working Set: 0213 | Quanta: 94 | Page Frame: 1 |
+Working Set: 0213 | Quanta: 95 | Page Frame: 2 |
+Working Set: 0213 | Quanta: 96 | Page Frame: 2 |
+Working Set: 0213 | Quanta: 97 | Page Frame: 3 |
+Working Set: 0213 | Quanta: 98 | Page Frame: 3 |
+Working Set: 0213 | Quanta: 99 | Page Frame: 2 |
+Working Set: 0213 | Quanta: 100 | Page Frame: 2 |
+
+
+Random Pick Hit Ratio: 0.85
+
+===================Run: 4====================
+
+--------------------------------------------
+Page 2 pages in
+--------------------------------------------
+Working Set: 6nnn | Quanta: 1 | Page Frame: 6 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 63nn | Quanta: 2 | Page Frame: 3 |
+Working Set: 63nn | Quanta: 3 | Page Frame: 3 |
+--------------------------------------------
+Page 2 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 632n | Quanta: 4 | Page Frame: 2 |
+Working Set: 632n | Quanta: 5 | Page Frame: 3 |
+Working Set: 632n | Quanta: 6 | Page Frame: 2 |
+Working Set: 632n | Quanta: 7 | Page Frame: 3 |
+Working Set: 632n | Quanta: 8 | Page Frame: 2 |
+Working Set: 632n | Quanta: 9 | Page Frame: 2 |
+Working Set: 632n | Quanta: 10 | Page Frame: 2 |
+Working Set: 632n | Quanta: 11 | Page Frame: 3 |
+--------------------------------------------
+Page 4 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 6324 | Quanta: 12 | Page Frame: 4 |
+Working Set: 6324 | Quanta: 13 | Page Frame: 4 |
+Working Set: 6324 | Quanta: 14 | Page Frame: 3 |
+Working Set: 6324 | Quanta: 15 | Page Frame: 2 |
+--------------------------------------------
+Page 1 paged in / Page 3 evicted.
+--------------------------------------------
+Working Set: 6124 | Quanta: 16 | Page Frame: 1 |
+--------------------------------------------
+Page 0 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 6120 | Quanta: 17 | Page Frame: 0 |
+Working Set: 6120 | Quanta: 18 | Page Frame: 0 |
+Working Set: 6120 | Quanta: 19 | Page Frame: 0 |
+Working Set: 6120 | Quanta: 20 | Page Frame: 1 |
+Working Set: 6120 | Quanta: 21 | Page Frame: 1 |
+Working Set: 6120 | Quanta: 22 | Page Frame: 1 |
+Working Set: 6120 | Quanta: 23 | Page Frame: 2 |
+Working Set: 6120 | Quanta: 24 | Page Frame: 2 |
+Working Set: 6120 | Quanta: 25 | Page Frame: 1 |
+Working Set: 6120 | Quanta: 26 | Page Frame: 2 |
+--------------------------------------------
+Page 3 paged in / Page 6 evicted.
+--------------------------------------------
+Working Set: 3120 | Quanta: 27 | Page Frame: 3 |
+Working Set: 3120 | Quanta: 28 | Page Frame: 3 |
+--------------------------------------------
+Page 4 paged in / Page 0 evicted.
+--------------------------------------------
+Working Set: 3124 | Quanta: 29 | Page Frame: 4 |
+Working Set: 3124 | Quanta: 30 | Page Frame: 4 |
+Working Set: 3124 | Quanta: 31 | Page Frame: 4 |
+Working Set: 3124 | Quanta: 32 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 33 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 34 | Page Frame: 4 |
+Working Set: 3124 | Quanta: 35 | Page Frame: 3 |
+Working Set: 3124 | Quanta: 36 | Page Frame: 4 |
+--------------------------------------------
+Page 5 paged in / Page 3 evicted.
+--------------------------------------------
+Working Set: 5124 | Quanta: 37 | Page Frame: 5 |
+--------------------------------------------
+Page 6 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 5126 | Quanta: 38 | Page Frame: 6 |
+--------------------------------------------
+Page 7 paged in / Page 2 evicted.
+--------------------------------------------
+Working Set: 5176 | Quanta: 39 | Page Frame: 7 |
+--------------------------------------------
+Page 0 paged in / Page 5 evicted.
+--------------------------------------------
+Working Set: 0176 | Quanta: 40 | Page Frame: 0 |
+Working Set: 0176 | Quanta: 41 | Page Frame: 0 |
+Working Set: 0176 | Quanta: 42 | Page Frame: 0 |
+Working Set: 0176 | Quanta: 43 | Page Frame: 0 |
+Working Set: 0176 | Quanta: 44 | Page Frame: 1 |
+Working Set: 0176 | Quanta: 45 | Page Frame: 0 |
+Working Set: 0176 | Quanta: 46 | Page Frame: 0 |
+Working Set: 0176 | Quanta: 47 | Page Frame: 0 |
+Working Set: 0176 | Quanta: 48 | Page Frame: 1 |
+Working Set: 0176 | Quanta: 49 | Page Frame: 0 |
+Working Set: 0176 | Quanta: 50 | Page Frame: 0 |
+Working Set: 0176 | Quanta: 51 | Page Frame: 0 |
+Working Set: 0176 | Quanta: 52 | Page Frame: 1 |
+Working Set: 0176 | Quanta: 53 | Page Frame: 1 |
+--------------------------------------------
+Page 2 paged in / Page 7 evicted.
+--------------------------------------------
+Working Set: 0126 | Quanta: 54 | Page Frame: 2 |
+Working Set: 0126 | Quanta: 55 | Page Frame: 1 |
+Working Set: 0126 | Quanta: 56 | Page Frame: 0 |
+Working Set: 0126 | Quanta: 57 | Page Frame: 0 |
+Working Set: 0126 | Quanta: 58 | Page Frame: 0 |
+Working Set: 0126 | Quanta: 59 | Page Frame: 1 |
+Working Set: 0126 | Quanta: 60 | Page Frame: 0 |
+Working Set: 0126 | Quanta: 61 | Page Frame: 0 |
+Working Set: 0126 | Quanta: 62 | Page Frame: 0 |
+Working Set: 0126 | Quanta: 63 | Page Frame: 0 |
+Working Set: 0126 | Quanta: 64 | Page Frame: 1 |
+Working Set: 0126 | Quanta: 65 | Page Frame: 0 |
+Working Set: 0126 | Quanta: 66 | Page Frame: 0 |
+Working Set: 0126 | Quanta: 67 | Page Frame: 0 |
+Working Set: 0126 | Quanta: 68 | Page Frame: 1 |
+Working Set: 0126 | Quanta: 69 | Page Frame: 0 |
+Working Set: 0126 | Quanta: 70 | Page Frame: 1 |
+Working Set: 0126 | Quanta: 71 | Page Frame: 2 |
+--------------------------------------------
+Page 3 paged in / Page 1 evicted.
+--------------------------------------------
+Working Set: 0326 | Quanta: 72 | Page Frame: 3 |
+Working Set: 0326 | Quanta: 73 | Page Frame: 3 |
+Working Set: 0326 | Quanta: 74 | Page Frame: 3 |
+Working Set: 0326 | Quanta: 75 | Page Frame: 2 |
+Working Set: 0326 | Quanta: 76 | Page Frame: 3 |
+Working Set: 0326 | Quanta: 77 | Page Frame: 2 |
+--------------------------------------------
+Page 1 paged in / Page 2 evicted.
+--------------------------------------------
+Working Set: 0316 | Quanta: 78 | Page Frame: 1 |
+Working Set: 0316 | Quanta: 79 | Page Frame: 1 |
+--------------------------------------------
+Page 2 paged in / Page 0 evicted.
+--------------------------------------------
+Working Set: 2316 | Quanta: 80 | Page Frame: 2 |
+Working Set: 2316 | Quanta: 81 | Page Frame: 3 |
+Working Set: 2316 | Quanta: 82 | Page Frame: 3 |
+Working Set: 2316 | Quanta: 83 | Page Frame: 2 |
+Working Set: 2316 | Quanta: 84 | Page Frame: 3 |
+--------------------------------------------
+Page 4 paged in / Page 6 evicted.
+--------------------------------------------
+Working Set: 2314 | Quanta: 85 | Page Frame: 4 |
+Working Set: 2314 | Quanta: 86 | Page Frame: 4 |
+Working Set: 2314 | Quanta: 87 | Page Frame: 3 |
+Working Set: 2314 | Quanta: 88 | Page Frame: 2 |
+Working Set: 2314 | Quanta: 89 | Page Frame: 1 |
+Working Set: 2314 | Quanta: 90 | Page Frame: 1 |
+Working Set: 2314 | Quanta: 91 | Page Frame: 1 |
+--------------------------------------------
+Page 0 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 2310 | Quanta: 92 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 93 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 94 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 95 | Page Frame: 0 |
+Working Set: 2310 | Quanta: 96 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 97 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 98 | Page Frame: 1 |
+Working Set: 2310 | Quanta: 99 | Page Frame: 2 |
+Working Set: 2310 | Quanta: 100 | Page Frame: 2 |
+
+
+Random Pick Hit Ratio: 0.74
+
+===================Run: 5====================
+
+--------------------------------------------
+Page 2 pages in
+--------------------------------------------
+Working Set: 9nnn | Quanta: 1 | Page Frame: 9 |
+--------------------------------------------
+Page 4 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 94nn | Quanta: 2 | Page Frame: 4 |
+--------------------------------------------
+Page 3 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 943n | Quanta: 3 | Page Frame: 3 |
+Working Set: 943n | Quanta: 4 | Page Frame: 3 |
+Working Set: 943n | Quanta: 5 | Page Frame: 4 |
+Working Set: 943n | Quanta: 6 | Page Frame: 3 |
+Working Set: 943n | Quanta: 7 | Page Frame: 4 |
+--------------------------------------------
+Page 5 pages in / Page n evicted.
+--------------------------------------------
+Working Set: 9435 | Quanta: 8 | Page Frame: 5 |
+Working Set: 9435 | Quanta: 9 | Page Frame: 5 |
+--------------------------------------------
+Page 6 paged in / Page 3 evicted.
+--------------------------------------------
+Working Set: 9465 | Quanta: 10 | Page Frame: 6 |
+--------------------------------------------
+Page 7 paged in / Page 5 evicted.
+--------------------------------------------
+Working Set: 9467 | Quanta: 11 | Page Frame: 7 |
+--------------------------------------------
+Page 0 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 9067 | Quanta: 12 | Page Frame: 0 |
+--------------------------------------------
+Page 1 paged in / Page 6 evicted.
+--------------------------------------------
+Working Set: 9017 | Quanta: 13 | Page Frame: 1 |
+Working Set: 9017 | Quanta: 14 | Page Frame: 1 |
+Working Set: 9017 | Quanta: 15 | Page Frame: 0 |
+Working Set: 9017 | Quanta: 16 | Page Frame: 1 |
+--------------------------------------------
+Page 2 paged in / Page 0 evicted.
+--------------------------------------------
+Working Set: 9217 | Quanta: 17 | Page Frame: 2 |
+Working Set: 9217 | Quanta: 18 | Page Frame: 2 |
+--------------------------------------------
+Page 3 paged in / Page 1 evicted.
+--------------------------------------------
+Working Set: 9237 | Quanta: 19 | Page Frame: 3 |
+--------------------------------------------
+Page 4 paged in / Page 3 evicted.
+--------------------------------------------
+Working Set: 9247 | Quanta: 20 | Page Frame: 4 |
+--------------------------------------------
+Page 3 paged in / Page 7 evicted.
+--------------------------------------------
+Working Set: 9243 | Quanta: 21 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 22 | Page Frame: 2 |
+Working Set: 9243 | Quanta: 23 | Page Frame: 2 |
+Working Set: 9243 | Quanta: 24 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 25 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 26 | Page Frame: 2 |
+Working Set: 9243 | Quanta: 27 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 28 | Page Frame: 4 |
+Working Set: 9243 | Quanta: 29 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 30 | Page Frame: 4 |
+Working Set: 9243 | Quanta: 31 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 32 | Page Frame: 2 |
+Working Set: 9243 | Quanta: 33 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 34 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 35 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 36 | Page Frame: 2 |
+Working Set: 9243 | Quanta: 37 | Page Frame: 2 |
+Working Set: 9243 | Quanta: 38 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 39 | Page Frame: 4 |
+Working Set: 9243 | Quanta: 40 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 41 | Page Frame: 2 |
+Working Set: 9243 | Quanta: 42 | Page Frame: 2 |
+Working Set: 9243 | Quanta: 43 | Page Frame: 3 |
+Working Set: 9243 | Quanta: 44 | Page Frame: 4 |
+Working Set: 9243 | Quanta: 45 | Page Frame: 4 |
+--------------------------------------------
+Page 5 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 9253 | Quanta: 46 | Page Frame: 5 |
+--------------------------------------------
+Page 4 paged in / Page 9 evicted.
+--------------------------------------------
+Working Set: 4253 | Quanta: 47 | Page Frame: 4 |
+Working Set: 4253 | Quanta: 48 | Page Frame: 4 |
+Working Set: 4253 | Quanta: 49 | Page Frame: 5 |
+Working Set: 4253 | Quanta: 50 | Page Frame: 4 |
+Working Set: 4253 | Quanta: 51 | Page Frame: 5 |
+--------------------------------------------
+Page 6 paged in / Page 3 evicted.
+--------------------------------------------
+Working Set: 4256 | Quanta: 52 | Page Frame: 6 |
+--------------------------------------------
+Page 7 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 7256 | Quanta: 53 | Page Frame: 7 |
+--------------------------------------------
+Page 0 paged in / Page 7 evicted.
+--------------------------------------------
+Working Set: 0256 | Quanta: 54 | Page Frame: 0 |
+--------------------------------------------
+Page 1 paged in / Page 5 evicted.
+--------------------------------------------
+Working Set: 0216 | Quanta: 55 | Page Frame: 1 |
+Working Set: 0216 | Quanta: 56 | Page Frame: 2 |
+--------------------------------------------
+Page 3 paged in / Page 0 evicted.
+--------------------------------------------
+Working Set: 3216 | Quanta: 57 | Page Frame: 3 |
+Working Set: 3216 | Quanta: 58 | Page Frame: 3 |
+--------------------------------------------
+Page 4 paged in / Page 1 evicted.
+--------------------------------------------
+Working Set: 3246 | Quanta: 59 | Page Frame: 4 |
+--------------------------------------------
+Page 5 paged in / Page 3 evicted.
+--------------------------------------------
+Working Set: 5246 | Quanta: 60 | Page Frame: 5 |
+Working Set: 5246 | Quanta: 61 | Page Frame: 5 |
+Working Set: 5246 | Quanta: 62 | Page Frame: 6 |
+Working Set: 5246 | Quanta: 63 | Page Frame: 5 |
+Working Set: 5246 | Quanta: 64 | Page Frame: 5 |
+Working Set: 5246 | Quanta: 65 | Page Frame: 5 |
+Working Set: 5246 | Quanta: 66 | Page Frame: 5 |
+Working Set: 5246 | Quanta: 67 | Page Frame: 4 |
+Working Set: 5246 | Quanta: 68 | Page Frame: 4 |
+Working Set: 5246 | Quanta: 69 | Page Frame: 4 |
+--------------------------------------------
+Page 3 paged in / Page 4 evicted.
+--------------------------------------------
+Working Set: 5236 | Quanta: 70 | Page Frame: 3 |
+Working Set: 5236 | Quanta: 71 | Page Frame: 3 |
+Working Set: 5236 | Quanta: 72 | Page Frame: 3 |
+Working Set: 5236 | Quanta: 73 | Page Frame: 3 |
+Working Set: 5236 | Quanta: 74 | Page Frame: 3 |
+Working Set: 5236 | Quanta: 75 | Page Frame: 3 |
+Working Set: 5236 | Quanta: 76 | Page Frame: 3 |
+Working Set: 5236 | Quanta: 77 | Page Frame: 3 |
+Working Set: 5236 | Quanta: 78 | Page Frame: 2 |
+Working Set: 5236 | Quanta: 79 | Page Frame: 2 |
+--------------------------------------------
+Page 1 paged in / Page 6 evicted.
+--------------------------------------------
+Working Set: 5231 | Quanta: 80 | Page Frame: 1 |
+Working Set: 5231 | Quanta: 81 | Page Frame: 1 |
+Working Set: 5231 | Quanta: 82 | Page Frame: 1 |
+--------------------------------------------
+Page 0 paged in / Page 2 evicted.
+--------------------------------------------
+Working Set: 5031 | Quanta: 83 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 84 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 85 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 86 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 87 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 88 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 89 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 90 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 91 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 92 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 93 | Page Frame: 1 |
+Working Set: 5031 | Quanta: 94 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 95 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 96 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 97 | Page Frame: 1 |
+Working Set: 5031 | Quanta: 98 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 99 | Page Frame: 0 |
+Working Set: 5031 | Quanta: 100 | Page Frame: 0 |
+
+
+Random Pick Hit Ratio: 0.72
+
+Average FIFO Hit Ratio: 0.7879999999999999
+Average LRU Hit Ratio: 0.81
+Average LFU Hit Ratio: 0.83
+Average MFU Hit Ratio: 0.7020000000000001
+Average Random Pick Hit Ratio: 0.78

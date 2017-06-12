@@ -1,0 +1,20 @@
+Shot Gun Description: (subject to change)
+
+
+
+Ammo: Med (12-15 shots)
+
+Damage Per Pellet: Low 1hp (More damage the more pellets hit)
+
+Rate of Fire: Low - Mid (pump action between shots)
+
+Special Trait: It's a shotgun. Shots 5 pellets (maybe more later) at once that fan out as the travel.
+
+
+
+
+Role it plays in combat:
+
+
+The shot gun is designed to be a great anti-air weapon and a damage dealing option for 
+large enemies with more health at close range.

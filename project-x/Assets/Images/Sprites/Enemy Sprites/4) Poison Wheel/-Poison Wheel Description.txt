@@ -1,0 +1,20 @@
+Poison Wheel Description:
+
+
+
+Type:   Monster Ground Enemy
+
+Health:    Moderate (5-6 shots)
+
+Attacks:   Rolls toward player inflicting damage on contact. Rolls through player and turns back around 
+	   to charge at player till it is destroyed (if there is time and if it fits in game play, then poison status inflicted.)
+
+Movement:    Moves moderately fast, slow turn around though.
+
+
+
+
+Role it plays in combat:
+
+
+This enemy is designed to get the player used to close quarters combat and start to think of ways to deal with up close threats.

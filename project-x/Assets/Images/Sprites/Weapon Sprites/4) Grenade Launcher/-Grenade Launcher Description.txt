@@ -1,0 +1,28 @@
+Grenade Launcher Description: (subject to change)
+
+
+
+Ammo: low - med (4-6 shots)
+
+Damage: High (more damage dealt closer to epicenter of blast)
+
+Rate of Fire: Low - med (cylinder rotates in between shots)
+
+
+
+Special Traits: (will need to be reworked)
+
+
+- Grenades launch at an arch, can be shot over crowds, sheilds, and barracades. 
+- Launched grenades explode on contact with enemies. 
+- Grenades that come in contact with the enivronment will bounce with much lower velocity and will 
+  finally explode once it settles or comes in contact with an enemy. 
+
+
+
+
+Role it plays in combat:
+
+
+The Grenade Launcher is designed to be a crowd control weapon due to its ability to be shot into the heart of crowds 
+and it's large blast radius. It is also a good tool for dealing with sheild enemies and solving puzzles involving baracades. 

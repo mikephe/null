@@ -1,0 +1,21 @@
+Enemy 1 Description:
+
+
+
+Type:   Basic ground enemy
+
+Health:    Moderately low (3-4 shots to kill with starting weapon or 1 charged shot)
+
+Attacks:   Shots moderatly slow moving bullets at a low rate of fire.
+
+Movement:    Moves slowly forward. Hovers from the ground at around the height of the player's weapon.
+
+
+
+
+Role it plays in combat:
+
+ 
+This is the first enemy the player will encounter in the game,
+it is designed to be an easy target that is not much of a threat so that
+the player can get used to the controls and combat mechanics.

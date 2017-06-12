@@ -1,0 +1,21 @@
+Basic Turret Description
+
+
+
+Type:   Turret
+
+Health:    Moderately Low (3-4 shots to kill with starting weapon or 1 charged shot)
+
+Attacks:   Tracks player (if we have time) and Shoots moderatly slow moving bullets at a low rate of fire.
+
+Movement:    Top of turret rotates to track player (if we have time) Bottom stays put. 
+	     Can be placed on walls and ceilings
+
+
+
+
+Role it plays in combat:
+
+ 
+This is the second enemy the player enchounters. It plays the same role as the first enemy but shows that
+some enemies can track player movement. Also introduces turrets as a thing in the game.

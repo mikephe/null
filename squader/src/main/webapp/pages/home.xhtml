@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:b="http://bootsfaces.net/ui"
+      xmlns:f="http://java.sun.com/jsf/core"      
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+	
+    <ui:composition
+        template="/templates/layout.xhtml">
+        
+    <ui:define name="header">
+        Dashboard
+  
+        <h:form> 
+        <p:commandButton action="#{loginBean.logout}" value="Logout" ajax="false"></p:commandButton>
+        </h:form>
+    </ui:define>
+        
+    <ui:define name="content">
+        <div class="container">
+            <div class="row">
+
+
+                <b:column col-xs="12">  
+                    <p:link outcome="matchmake" value="Start Matchmaking"></p:link>
+                </b:column>
+                <b:column col-xs="12" col-sm="4">
+                    <h2>You <small></small></h2>
+                    <!--<h:button class="btn" value="Edit Profile"/>-->
+
+                    <!-- Fill in with user values -->
+                    <h:graphicImage library="images" name="star.png" class="img-responsive img-rounded" style="height:100px;" />
+                    #{userBean.getUsername()}
+                    <h4>#{userBean.user.first} #{userBean.user.last}</h4>
+                    <p>#{userBean.user.tagline}</p>
+
+                    <h5>Skills</h5>
+                    <ul class="list-inline">
+                        <li jsfc="ui:repeat" value="#{userBean.user.skills}" var="value">
+                            #{value}
+                        </li>
+                    </ul>
+                    <h5>Bio</h5>
+                    <p>#{userBean.user.bio}</p>
+
+
+                </b:column>
+
+                <b:column col-xs="12" col-sm="4">
+                    <h2>Your Projects</h2>
+
+                    <div jsfc="ui:repeat" value="#{projectsBean.projects}" var="project" class="panel panel-default">
+                        <div class="panel-body">
+                            <h3>#{project.name}</h3>
+                            <h5><small>Started on </small> #{project.dateStarted}</h5>
+                            <p>#{project.desc}</p>
+                            <h5>Team Members</h5>
+
+                        </div>
+                         <ul class="list-group">
+                             <li jsfc="ui:repeat" value="#{project.members}" var="user" class="list-group-item">
+                                 #{user.first} #{user.last}
+                              </li>
+
+        <!--                    <li class="list-group-item">Mike Phe <h:graphicImage library="images" name="mike.jpg" class="img-responsive img-rounded" style="height:25px;" /></li>
+                            <li class="list-group-item">Will Simons <h:graphicImage library="images" name="will.jpg" class="img-responsive img-rounded" style="height:25px;" /></li>
+                            <li class="list-group-item">Patrick Ryan <h:graphicImage library="images" name="patrick.jpg" class="img-responsive img-rounded" style="height:25px;" /></li>
+                            <li class="list-group-item">Anacleto Duplito <h:graphicImage library="images" name="anacleto.jpg" class="img-responsive img-rounded" style="height:25px;" /></li>
+                            <li class="list-group-item">Shunt Balushian<h:graphicImage library="images" name="shunt.jpg" class="img-responsive img-rounded" style="height:25px;" /></li>-->
+                          </ul>    
+                    </div>
+
+
+                </b:column>
+
+                <b:column col-xs="12" col-sm="4">
+                    <h2>Your Matches</h2>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h3>Squadder</h3>
+                            <h5>People that want to join your team.</h5>
+
+                        </div>
+                         <ul class="list-group">
+                            <li class="list-group-item">Squidward <h:graphicImage library="images" name="squid.jpg" class="img-responsive img-rounded" style="height:50px;" /></li>
+                          </ul>
+
+                    </div>
+                </b:column>
+        </div>
+    </div>
+    </ui:define>
+    </ui:composition>
+</html>

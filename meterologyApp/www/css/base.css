@@ -1,0 +1,32 @@
+/*
+	Base CSS file for all pages
+*/
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.heading {
+	text-align:center;
+	display:block;
+	border-bottom: 4px solid #000000;
+}
+
+
+.heading h1 {
+	display:inline-block;
+	font-family: Sans-Serif;
+	font-weight:500;
+	font-size:36px;
+	padding-bottom:15px;
+	color: #66CCFF;
+	position:relative;
+	top: 5px;
+}
+
+.link a {
+	text-decoration: none;
+	display:inline-block;
+	font-family: Sans-Serif;
+}

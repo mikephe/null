@@ -1,0 +1,20 @@
+Devil Crow Description:
+
+
+
+Type:   Basic Flying Enemy
+
+Health:    Med (5-6 shots)
+
+Attacks:   Shoots lazers from it's eyes starting underneath it and then sweeping up toward the player
+	   for a certain distance.  
+
+Movement:    Hovers slowly in small area.
+
+
+
+
+Role it plays in combat:
+
+
+This enemy is designed to add more variety to aerial enemies and overall combat variety.

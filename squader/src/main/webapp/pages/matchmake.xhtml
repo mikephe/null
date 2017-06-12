@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:b="http://bootsfaces.net/ui"
+      xmlns:f="http://java.sun.com/jsf/core"      
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+	
+    <ui:composition
+        template="/templates/layout.xhtml">
+        
+    <ui:define name="header">
+        Find your matches.
+    </ui:define>
+        
+    <ui:define  name="content">
+        <div class="container">
+            <div class="row">
+                <h4>Find projects to work on.</h4>
+            </div>
+            
+            <div class="row">
+                <ul>
+                    <li jsfc="ui:repeat" value="#{userMatchmakeBean.projects}" var="project">
+                        #{project.name}
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>     
+    </ui:define>
+    	    
+    </ui:composition>
+</html>

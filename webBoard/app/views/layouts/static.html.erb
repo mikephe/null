@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebBoard</title>
+  <%= favicon_link_tag 'favicon.ico' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <a href="/"><h1 class="flex">Collaborative Doodles</h1></a>
+  <div class="flex">
+    <h3>A project by <a href="http://wsimons.com">Will Simons</a>, <a href="">Mike Phe</a>, and <a href="">Brian Guilliardi.</a></h3>
+  </div>
+<%= yield %>
+
+</body>
+</html>

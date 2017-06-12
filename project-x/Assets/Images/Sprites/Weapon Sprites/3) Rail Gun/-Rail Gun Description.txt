@@ -1,0 +1,20 @@
+Rail Gun Description: (subject to change)
+
+
+
+Ammo: Low (3-4 shots)
+
+Damage: Massive (One shot kill)
+
+Rate of Fire: Slow (Breifly charges before firing as well)
+
+Special Trait: Shots pierce through all enemies (but not through walls)
+
+
+
+
+Role it plays in combat:
+
+
+The Rail Gun is designed to be a heavy hitting special weapon ideal for destroying a large 
+approaching hoard of enemies or big enemies.

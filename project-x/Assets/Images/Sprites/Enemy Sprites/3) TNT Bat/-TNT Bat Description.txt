@@ -1,0 +1,21 @@
+TNT Bat Description:
+
+
+
+Type:   Basic Flying Enemy
+
+Health:    low (One shot kill)
+
+Attacks:   Flies at player in a flock of many bats and self destructs on contact. Mid to high damage.
+
+Movement:    Moves moderately slow. Easily shot down but makes up for it in moderately 
+             overwhelming numbers (flying in a pack.)
+
+
+
+
+Role it plays in combat:
+
+
+This enemy is designed to teach the player to use different weapons for different situations.
+The shot gun and flame thrower are highly effective at dealing with their numbers where as a single shot weapon is not.

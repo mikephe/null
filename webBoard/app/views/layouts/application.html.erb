@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebBoard</title>
+  <%= favicon_link_tag 'favicon.ico' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <a href="/"><h1 class="flex">Collaborative Doodles</h1></a>
+  <div class="flex">
+    <h3>A project by <a href="http://wsimons.com">Will Simons</a>, <a href="https://www.linkedin.com/in/mikephe">Mike Phe</a>, and <a href="https://www.linkedin.com/in/brianguilardi">Brian Guilliardi.</a></h3>
+  </div>
+  <div class="flex">
+    <div class="button" id="share-button">Share Drawing</div>
+    <div class="button" id="clear-button">Reset</div>
+  </div>
+  <div class="flex">
+    <div class="flex-vertical">
+      <% for x in 1...21 %>
+        <div class='color' id="c<%= x %>"></div>
+      <% end %>
+    </div>
+    <div class="canvas-container">
+      <canvas width="600px" height="600px"></canvas>
+    </div>
+    <div class="flex-vertical">
+        <% for x in 1...11 %>
+          <div class='size'>
+            <div class='inner-size' id='s<%= x %>'></div>
+          </div>
+        <% end %>
+    </div>
+  </div>
+<%= yield %>
+
+</body>
+</html>

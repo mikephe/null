@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:b="http://bootsfaces.net/ui"
+      xmlns:f="http://java.sun.com/jsf/core"      
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+	
+    <h:head>
+        <title><ui:insert name="title"> Squader </ui:insert></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+    </h:head>
+    <h:body>
+        <b:container>
+            <b:row>
+                <h1>Squadder
+                <small>
+                <ui:insert name="header">
+                   
+                </ui:insert>
+                </small></h1>
+                
+            </b:row>
+            <b:row>
+                <ui:insert name="content">
+                </ui:insert>
+            </b:row>
+        </b:container>
+    </h:body>
+</html>

@@ -1,0 +1,20 @@
+Charge Shot Description: (subject to change)
+
+
+
+Ammo: Med (30-35 shots)
+
+Damage: Low (High damage when fully Charged)
+
+Rate of Fire: Low - Mid
+
+Special Trait: Able to charge it's shot before firing.
+
+
+
+
+Role it plays in combat:
+
+
+The Charge Shot is designed to be an all around weapon that is decent at everthing but strong at nothing, 
+leaning slightly more toward the weaker side to enchourage weapon varity. 

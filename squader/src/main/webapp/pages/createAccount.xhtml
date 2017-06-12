@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:b="http://bootsfaces.net/ui"
+      xmlns:f="http://java.sun.com/jsf/core"      
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+    
+    <ui:composition
+    template="/templates/layout.xhtml">
+        
+        
+        <ui:define name="header">
+            Login
+        </ui:define>
+        
+        <ui:define  name="content">
+           <div class="container-fluid">
+            <div class="row">
+                <h:form id="createForm" class="form-horizontal" >          
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="username">Username</label>
+                        <div class="col-sm-10">
+                            <p:inputText id="username" styleClass="form-control" value="#{createAccountBean.username}" ></p:inputText>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="password">Password</label>
+                        <div class="col-sm-10">
+                            <p:password id="password" styleClass="form-control" value="#{createAccountBean.password}" ></p:password>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="first">First Name</label>
+                        <div class="col-sm-10">
+                            <p:inputText id="first" styleClass="form-control" value="#{createAccountBean.first}" ></p:inputText>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="last">Last Name</label>
+                        <div class="col-sm-10">
+                            <p:inputText id="last" styleClass="form-control" value="#{createAccountBean.last}" ></p:inputText>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Email</label>
+                        <div class="col-sm-10">
+                            <p:inputText id="email" styleClass="form-control" value="#{createAccountBean.email}" ></p:inputText>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="phone">Phone</label>
+                        <div class="col-sm-10">
+                            <p:inputText id="phone" styleClass="form-control" value="#{createAccountBean.phone}" ></p:inputText>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-push-2">
+                            <p:commandButton action="#{createAccountBean.createAccount}" styleClass="btn btn-default" value="Create Account" update="createForm" ajax="true"></p:commandButton>
+                        </div>
+                    </div>
+
+
+                </h:form>
+                
+            </div>
+           </div>
+            
+        </ui:define>
+    </ui:composition>
+	
+</html>
